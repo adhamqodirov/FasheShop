@@ -1,0 +1,177 @@
+﻿@model IEnumerable<FasheShop.Models.Product>
+@{
+  
+}
+
+
+
+
+<section class="bg-title-page p-t-40 p-b-50 flex-col-c-m" style="background-image: url('@ViewBag.pageimages.path'); margin-top:80px">
+    <h2 class="l-text2 t-center">
+        @{
+            string text = "";
+
+            if (!FasheShop.Control.Status.isRu)
+            {
+                text = " Shop";
+
+
+            }
+            else
+            {
+                text = "Магазин";
+            }
+
+        }
+        @text
+
+    </h2>
+</section>
+
+    <!-- Content page -->
+    <section class="bgwhite p-t-55 p-b-65">
+        <div class="container">
+            <div class="row">
+               
+
+                <div class="col-sm-10 col-md-12 col-lg-12 p-b-50">
+                    <!--  -->
+                    <div class="flex-sb-m flex-w p-b-35">
+                        <div class="flex-w">
+
+                         
+                            <form action="@Url.Action("filter","Home")" method="post">
+
+                                <style>
+                                    .flex-container {
+                                        display: flex;
+                                        flex-wrap: wrap;
+                                     
+                                    }
+
+                                        .flex-container > div {
+                                         
+                                            width: 100px;
+                                            margin: 10px;
+                                            margin-right:60px;
+                                            text-align: center;
+                                            line-height: 50px;
+                                            font-size: 30px;
+                                        }
+
+                                        .flex-container:hover{
+                                            cursor: pointer;
+                                        }
+                                </style>
+
+
+                                <div class="flex-container">
+                                    <div>
+                                    <div class="rs2-select2 bo4 of-hidden w-size12 m-t-5 m-b-5 m-r-10">
+                                <select class="selection-2" name="sorting" id="sorting">
+                                    <option>Default Sorting</option>
+                                    <option>Last added</option>
+                                    <option>Price: low to high</option>
+                                    <option>Price: high to low</option>
+                                </select>
+</div></div>
+                                    <div>
+                                    <div class="rs2-select2 bo4 of-hidden w-size12 m-t-5 m-b-5 m-r-10" style="border:none;">
+                                    <input type="submit" name="name" value="filter" class="btn btn-primary"  step="cursor: pointer;"/>
+                                    </div></div>
+                                
+
+                                </div>
+                             
+
+                              
+                              
+                                
+</form>
+                        
+                            
+                        </div>
+
+                        <span class="s-text8 p-t-5 p-b-5">
+                            Showing 1–12 of @ViewBag.summary results
+                        </span>
+                    </div>
+
+                    <!-- Product -->
+                    <div class="row">
+
+                        @{
+                            foreach (var item in Model)
+                            {
+                                <div class="col-sm-12 col-md-6 col-lg-3 p-b-50">
+                                    <!-- Block2 -->
+                                    <div class="block2">
+                                        <div class="block2-img wrap-pic-w of-hidden pos-relative block2-labelnew">
+                                            <img src="@item.Picture" alt="IMG-PRODUCT" style="height: 200px;">
+
+                                            <div class="block2-overlay trans-0-4">
+                                                @*<a href="#" class="block2-btn-addwishlist hov-pointer trans-0-4">
+                                                    <i class="icon-wishlist icon_heart_alt" aria-hidden="true"></i>
+                                                    <i class="icon-wishlist icon_heart dis-none" aria-hidden="true"></i>
+                                                </a>*@
+
+                                                <div class="block2-btn-addcart w-size1 trans-0-4">
+                                                    <!-- Button -->
+                                                    <button class="flex-c-m size1 bg4 bo-rad-23 hov1 s-text1 trans-0-4" id="@item.ID">
+                                                        Add to Cart
+                                                    </button>
+                                                </div>
+                                                <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.8.3/jquery.js"></script>
+                                                <script type="text/javascript">
+		                                              $('#@item.ID').on('click', function () {
+		                                                       $.ajax({
+			                                                        url: '@Url.Action("addToCart", "Home", new {productID = @item.ID})',
+			                                                        type: "POST"
+		                                                       });
+		                                                  location.reload(true);
+
+		                                              });
+
+                                                </script>
+                                            </div>
+                                        </div>
+
+                                        <div class="block2-txt p-t-20">
+                                            <a href="product-detail.html" class="block2-name dis-block s-text3 p-b-5">
+                                                @item.ProductName
+                                            </a>
+
+                                            <span class="block2-price m-text6 p-r-5">
+                                                $@Math.Round(Convert.ToDouble(item.Price), 2)
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            }
+                        }
+                       
+                      
+                    </div>
+                    @{
+                        if (ViewBag.loadless == "1")
+                        {
+                            <div class="pagination flex-m flex-w p-t-26" style="justify-content: center;">
+                                <a href="/home/shop" class="item-pagination flex-c-m trans-0-4 active-pagination">Load Less</a>
+
+                            </div>
+                        }
+                        else
+                        {
+                            <div class="pagination flex-m flex-w p-t-26" style="justify-content: center;">
+                                <a href="/home/getall" class="item-pagination flex-c-m trans-0-4 active-pagination">Load More</a>
+
+                            </div>
+                        }
+                    }
+                    <!-- Pagination -->
+                   
+                </div>
+            </div>
+        </div>
+    </section>
+

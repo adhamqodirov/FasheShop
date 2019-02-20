@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="cb83380bd0fa4262a3e74cdcb32eb8f4" Name="Diagram1">
+        <EntityTypeShape EntityType="FasheShopDBModel.Contact" Width="1.5" PointX="8" PointY="6.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="FasheShopDBModel.News" Width="1.5" PointX="2.75" PointY="7.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="FasheShopDBModel.Order" Width="1.5" PointX="3" PointY="3.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="FasheShopDBModel.Product" Width="1.5" PointX="0.75" PointY="8.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="FasheShopDBModel.ProductCategory" Width="1.5" PointX="1.5" PointY="12.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="FasheShopDBModel.ProductType" Width="1.5" PointX="1.5" PointY="15.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FasheShopDBModel.Role" Width="1.5" PointX="3.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FasheShopDBModel.State" Width="1.5" PointX="5.75" PointY="7.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="FasheShopDBModel.sysdiagram" Width="1.5" PointX="8.75" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="FasheShopDBModel.User" Width="1.5" PointX="0.75" PointY="3" IsExpanded="true" />
+        <EntityTypeShape EntityType="FasheShopDBModel.UserRole" Width="1.5" PointX="6" PointY="3.5" IsExpanded="true" />
+        <AssociationConnector Association="FasheShopDBModel.FK_Contact_State" ManuallyRouted="false" />
+        <AssociationConnector Association="FasheShopDBModel.FK_Order_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="FasheShopDBModel.FK_Order_User" ManuallyRouted="false" />
+        <AssociationConnector Association="FasheShopDBModel.FK_Product_ProductCategory" ManuallyRouted="false" />
+        <AssociationConnector Association="FasheShopDBModel.FK_ProductCategory_ProductType" ManuallyRouted="false" />
+        <AssociationConnector Association="FasheShopDBModel.FK_UserRole_Role" ManuallyRouted="false" />
+        <AssociationConnector Association="FasheShopDBModel.FK_UserRole_User" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="FasheShopDBModel.CustomizeSetting" Width="1.5" PointX="10.375" PointY="4.75" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

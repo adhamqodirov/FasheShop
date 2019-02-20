@@ -1,0 +1,1434 @@
+﻿@model IEnumerable<FasheShop.Models.Product>
+@{
+
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Home</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+
+    <!--===============================================================================================-->
+    <link rel="icon" type="image/png" href="~/Content/images/icons/favicon.png" />
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="~/Content/vendor/bootstrap/css/bootstrap.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="~/Content/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="~/Content/fonts/themify/themify-icons.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="~/Content/fonts/Linearicons-Free-v1.0.0/icon-font.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="~/Content/fonts/elegant-font/html-css/style.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="~/Content/vendor/animate/animate.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="~/Content/vendor/css-hamburgers/hamburgers.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="~/Content/vendor/animsition/css/animsition.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="~/Content/vendor/select2/select2.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="~/Content/vendor/daterangepicker/daterangepicker.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="~/Content/vendor/slick/slick.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="~/Content/vendor/lightbox2/css/lightbox.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="~/Content/css/util.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/css/main.css">
+    <!--===============================================================================================-->
+</head>
+<body class="animsition">
+
+    <header class="header1">
+        <!-- Header desktop -->
+        <div class="container-menu-header">
+
+            <div class="wrap_header">
+                <!-- Logo -->
+                <a href="index.html" class="logo">
+                    <img src="@ViewBag.logo.path" alt="IMG-LOGO">
+                </a>
+
+                <!-- Menu -->
+                <div class="wrap_menu">
+                    <nav class="menu">
+                        <ul class="main_menu">
+                            <li class="@ViewBag.home">
+                                @{
+                                    if (!FasheShop.Control.Status.isRu)
+                                    {
+                                        <a href="/home/index">Home</a>
+                                    }
+                                    else
+                                    {
+                                        <a href="/home/index">Главная страница</a>
+                                    }
+                                }
+
+
+                            </li>
+
+                            <li class="@ViewBag.about">
+
+                                @{
+                                    if (!FasheShop.Control.Status.isRu)
+                                    {
+                                        <a href="/Home/About">About</a>
+                                    }
+                                    else
+                                    {
+                                        <a href="/Home/About">О нас</a>
+                                    }
+                                }
+
+
+                            </li>
+                            <li class="@ViewBag.blog">
+                                @{
+                                    if (!FasheShop.Control.Status.isRu)
+                                    {
+                                        <a href="/home/blog">Blog</a>
+                                    }
+                                    else
+                                    {
+                                        <a href="/home/blog">Блог</a>
+                                    }
+                                }
+
+
+
+                            </li>
+
+                            <li class="@ViewBag.shop">
+
+                                @{
+                                    if (!FasheShop.Control.Status.isRu)
+                                    {
+                                        <a href="/home/shop">Shop</a>
+                                    }
+                                    else
+                                    {
+                                        <a href="/home/shop">Магазин</a>
+                                    }
+                                }
+
+                            </li>
+                            <li class="@ViewBag.cart">
+
+                                @{
+                                    if (!FasheShop.Control.Status.isRu)
+                                    {
+                                        <a href="/home/cart">Cart</a>
+                                    }
+                                    else
+                                    {
+                                        <a href="/home/cart">Корзина</a>
+                                    }
+                                }
+
+
+                            </li>
+
+
+
+
+                            <li class="@ViewBag.contact">
+                                @{
+                                    if (!FasheShop.Control.Status.isRu)
+                                    {
+                                        <a href="/Home/Contact">Contact</a>
+                                    }
+                                    else
+                                    {
+                                        <a href="/Home/Contact">Контакт</a>
+                                    }
+                                }
+
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+
+                <!-- Header Icon -->
+                <div class="header-icons">
+                    <a href="/Home/Login" class="header-wrapicon1 dis-block">
+                        <img src="~/Content/images/icons/icon-header-01.png" class="header-icon1" alt="ICON">
+                    </a>
+
+                    <span class="linedivide1"></span>
+
+                    <div class="header-wrapicon2">
+                        <img src="~/Content/images/icons/icon-header-02.png" class="header-icon1 js-show-header-dropdown" alt="ICON">
+                        <span class="header-icons-noti" id="p1">@ViewBag.cart.Count</span>
+
+                        <!-- Header cart noti -->
+                        <div class="header-cart header-dropdown">
+                            <ul class="header-cart-wrapitem">
+
+                                @{
+
+
+                                    foreach (var item in ViewBag.cart)
+                                    {
+                                        FasheShop.Models.Product temp = new FasheShop.Models.Product();
+                                        foreach (var item2 in ViewBag.products)
+                                        {
+                                            if (item2.ID == item.ProductID)
+                                            {
+                                                temp = item2;
+                                            }
+                                        }
+
+
+
+                                        <li class="header-cart-item">
+                                            <div class="header-cart-item-img">
+                                                <img src="@temp.Picture" alt="IMG">
+                                            </div>
+
+                                            <div class="header-cart-item-txt">
+                                                <a href="#" class="header-cart-item-name">
+                                                    @temp.ProductName
+                                                </a>
+
+                                                <span class="header-cart-item-info">
+                                                    @temp.Price
+                                                </span>
+                                            </div>
+                                        </li>
+                                    }
+                                }
+
+
+
+
+                            </ul>
+
+                            <div class="header-cart-total">
+                                Total: @ViewBag.total
+                            </div>
+
+                            <div class="header-cart-buttons">
+                                <div class="header-cart-wrapbtn">
+                                    <!-- Button -->
+                                    <a href="/home/cart" class="flex-c-m size1 bg1 bo-rad-20 hov1 s-text1 trans-0-4">
+                                        View Cart
+                                    </a>
+                                </div>
+
+                                <div class="header-cart-wrapbtn">
+                                    <!-- Button -->
+                                    <a href="/home/clear" class="flex-c-m size1 bg1 bo-rad-20 hov1 s-text1 trans-0-4">
+                                        Clear
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="topbar-language rs1-select2">
+                        <a href="@Url.Action("en", "Home")" title="List View" class="links">
+                            <img alt="Eng" src="@Url.Content("~/Content/uk.png")" style="    
+                                 width: 34px;   height: 41px;
+    margin: 5px;
+    margin-left: 15px;
+    margin-top: 12px;">
+                            
+                        </a>
+                        <a href="@Url.Action("ru", "Home")" title="List View" class="links">
+                            <img alt="Ru" src="@Url.Content("~/Content/ruu.png")" style="    
+                                 width: 34px;   height: 23px;
+    margin: 5px;
+    margin-left: 0px;
+    margin-top: 10px;"  >
+                           
+                        </a>
+
+                        
+                          @*<select class="selection-1" id="timetime" name="stimetime">
+                            <option>EN</option>
+                            <option>RU</option>
+                        </select>*@
+
+                    
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Header Mobile -->
+        <div class="wrap_header_mobile">
+            <!-- Logo moblie -->
+            <a href="index.html" class="logo-mobile">
+                <img src="@ViewBag.logo.path" alt="IMG-LOGO">
+            </a>
+
+            <!-- Button show menu -->
+            <div class="btn-show-menu">
+                <!-- Header Icon mobile -->
+                <div class="header-icons-mobile">
+                    <a href="#" class="header-wrapicon1 dis-block">
+                        <img src="~/Content/images/icons/icon-header-01.png" class="header-icon1" alt="ICON">
+                    </a>
+
+                    <span class="linedivide2"></span>
+
+                    <div class="header-wrapicon2">
+                        <img src="~/Content/images/icons/icon-header-02.png" class="header-icon1 js-show-header-dropdown" alt="ICON">
+                        <span class="header-icons-noti">0</span>
+
+                        <!-- Header cart noti -->
+                        <div class="header-cart header-dropdown">
+                            <ul class="header-cart-wrapitem">
+                                <li class="header-cart-item">
+                                    <div class="header-cart-item-img">
+                                        <img src="~/Content/images/item-cart-01.jpg" alt="IMG">
+                                    </div>
+
+                                    <div class="header-cart-item-txt">
+                                        <a href="#" class="header-cart-item-name">
+                                            White Shirt With Pleat Detail Back
+                                        </a>
+
+                                        <span class="header-cart-item-info">
+                                            1 x $19.00
+                                        </span>
+                                    </div>
+                                </li>
+
+                                <li class="header-cart-item">
+                                    <div class="header-cart-item-img">
+                                        <img src="~/Content/images/item-cart-02.jpg" alt="IMG">
+                                    </div>
+
+                                    <div class="header-cart-item-txt">
+                                        <a href="#" class="header-cart-item-name">
+                                            Converse All Star Hi Black Canvas
+                                        </a>
+
+                                        <span class="header-cart-item-info">
+                                            1 x $39.00
+                                        </span>
+                                    </div>
+                                </li>
+
+                                <li class="header-cart-item">
+                                    <div class="header-cart-item-img">
+                                        <img src="~/Content/images/item-cart-03.jpg" alt="IMG">
+                                    </div>
+
+                                    <div class="header-cart-item-txt">
+                                        <a href="#" class="header-cart-item-name">
+                                            Nixon Porter Leather Watch In Tan
+                                        </a>
+
+                                        <span class="header-cart-item-info">
+                                            1 x $17.00
+                                        </span>
+                                    </div>
+                                </li>
+                            </ul>
+
+                            <div class="header-cart-total">
+                                Total: $75.00
+                            </div>
+
+                            <div class="header-cart-buttons">
+                                <div class="header-cart-wrapbtn">
+                                    <!-- Button -->
+                                    <a href="cart.html" class="flex-c-m size1 bg1 bo-rad-20 hov1 s-text1 trans-0-4">
+                                        View Cart
+                                    </a>
+                                </div>
+
+                                <div class="header-cart-wrapbtn">
+                                    <!-- Button -->
+                                    <a href="#" class="flex-c-m size1 bg1 bo-rad-20 hov1 s-text1 trans-0-4">
+                                        Check Out
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="btn-show-menu-mobile hamburger hamburger--squeeze">
+                    <span class="hamburger-box">
+                        <span class="hamburger-inner"></span>
+                    </span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Menu Mobile -->
+        <div class="wrap-side-menu">
+            <nav class="side-menu">
+                <ul class="main-menu">
+                    <li class="item-menu-mobile">
+                        <a href="/home/index">Home</a>
+
+                    </li>
+                    <li class="item-menu-mobile">
+                        <a href="about.html">About</a>
+                    </li>
+                    <li class="item-menu-mobile">
+                        <a href="/Home/Blog">Blog</a>
+                    </li>
+
+
+
+                    <li class="item-menu-mobile">
+                        <a href="/home/shop">Shop</a>
+                    </li>
+
+                    <li class="item-menu-mobile">
+                        <a href="/home/shop">Sale</a>
+                    </li>
+
+                    <li class="item-menu-mobile">
+                        <a href="/home/cart">Cart</a>
+                    </li>
+
+
+                    <li class="item-menu-mobile">
+                        <a href="/home/contact">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Slide1 -->
+    <section class="slide1" style="margin-top: 80px;">
+        <div class="wrap-slick1">
+            <div class="slick1">
+
+                    @{
+                        foreach (var item in ViewBag.news)
+                        {
+                            <div class="item-slick1 item1-slick1" style="background-image: url(@item.Picture);">
+                                <div class="wrap-content-slide1 sizefull flex-col-c-m p-l-15 p-r-15 p-t-150 p-b-170">
+                                    <span class="caption1-slide1 m-text1 t-center animated visible-false m-b-15" data-appear="fadeInDown">
+                                       @item.Excerpt
+                                    </span>
+
+                                    <h2 class="caption2-slide1 xl-text1 t-center animated visible-false m-b-37" data-appear="fadeInUp">
+                                         @item.Title
+                                    </h2>
+
+                                    <div class="wrap-btn-slide1 w-size1 animated visible-false" data-appear="zoomIn">
+                                        <!-- Button -->
+                                        <a href="/home/singleblog/@item.ID" class="flex-c-m size2 bo-rad-23 s-text2 bgwhite hov1 trans-0-4">
+                                            Read More
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        }
+
+                    }
+              
+             
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Banner -->
+    <section class="banner bgwhite p-t-40 p-b-40">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-10 col-md-8 col-lg-4 m-l-r-auto">
+                    <!-- block1 -->
+                    <div class="block1 hov-img-zoom hundred pos-relative m-b-30 ">
+                        <img src="@ViewBag.h1.path" alt="h1 option"  style="height:100%;">
+
+                        <div class="block1-wrapbtn w-size2">
+                            <!-- Button -->
+                            <a href="@ViewBag.h1.description" class="flex-c-m size2 m-text2 bg3 hov1 trans-0-4">
+                                @ViewBag.h1.name
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- block1 -->
+                    <div class="block1 hov-img-zoom hundred pos-relative m-b-30">
+                        <img src="@ViewBag.h2.path" alt="h2 option"  style="height:100%;">
+
+                        <div class="block1-wrapbtn w-size2">
+                            <!-- Button -->
+                            <a href="@ViewBag.h2.description" class="flex-c-m size2 m-text2 bg3 hov1 trans-0-4">
+                                @ViewBag.h2.name
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-10 col-md-8 col-lg-4 m-l-r-auto">
+                    <!-- block1 -->
+                    <div class="block1 hov-img-zoom hundred pos-relative m-b-30">
+                        <img src="@ViewBag.h3.path" alt="h3 option">
+
+                        <div class="block1-wrapbtn w-size2">
+                            <!-- Button -->
+                            <a href="@ViewBag.h3.description" class="flex-c-m size2 m-text2 bg3 hov1 trans-0-4">
+                                @ViewBag.h3.name
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- block1 -->
+                    <div class="block1 hov-img-zoom hundred pos-relative m-b-30">
+                        <img src="@ViewBag.h4.path" alt="h4 option" style="height:100%;">
+
+                        <div class="block1-wrapbtn w-size2">
+                            <!-- Button -->
+                            <a href="@ViewBag.h4.description" class="flex-c-m size2 m-text2 bg3 hov1 trans-0-4">
+                                @ViewBag.h4.name
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-10 col-md-8 col-lg-4 m-l-r-auto">
+                    <!-- block1 -->
+                    <div class="block1 hov-img-zoom  hundred pos-relative m-b-30">
+                        <img src="@ViewBag.h5.path" alt="h5 option" style="height:100%;">
+
+                        <div class="block1-wrapbtn w-size2">
+                            <!-- Button -->
+                            <a href="@ViewBag.h5.description" class="flex-c-m size2 m-text2 bg3 hov1 trans-0-4">
+                                @ViewBag.h5.name
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- block2 -->
+                    <div class="block2 wrap-pic-w pos-relative m-b-30">
+                        <img src="@ViewBag.h6.path" alt="h6 option"  style="height:100%;">
+
+                        <div class="block2-content sizefull ab-t-l flex-col-c-m">
+                            <h5 class="m-text4 t-center w-size3 p-b-8">
+                                @ViewBag.h6.fulldescription
+                            </h5>
+
+                          
+                            <div class="w-size2 p-t-25">
+                                <!-- Button -->
+                                <a href="@ViewBag.h6.description" class="flex-c-m size2 bg4 bo-rad-23 hov1 m-text3 trans-0-4">
+                                    @ViewBag.h6.name
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- New Product -->
+    <section class="newproduct bgwhite p-t-45 p-b-105">
+        <div class="container">
+            <div class="sec-title p-b-60">
+                <h3 class="m-text5 t-center">
+                    @{
+                        string text="";
+
+                        if (!FasheShop.Control.Status.isRu)
+                        {
+                            text = " Featured Products";
+
+
+                        }
+                        else
+                        {
+                            text = "Рекомендуемые товары";
+                        }
+
+                    }
+                    @text
+                </h3>
+            </div>
+
+
+            <!-- Slide2 -->
+            <div class="wrap-slick2">
+                <div class="slick2">
+
+                    @{
+                        foreach (var item in Model)
+                        {
+                            <div class="item-slick2 p-l-15 p-r-15">
+                                <!-- Block2 -->
+                                <div class="block2">
+                                    <div class="block2-img wrap-pic-w of-hidden pos-relative block2-labelnew">
+                                        <img src="@item.Picture" alt="IMG-PRODUCT">
+
+                                        <div class="block2-overlay trans-0-4">
+                                            <a href="#" class="block2-btn-addwishlist hov-pointer trans-0-4">
+                                                <i class="icon-wishlist icon_heart_alt" aria-hidden="true"></i>
+                                                <i class="icon-wishlist icon_heart dis-none" aria-hidden="true"></i>
+                                            </a>
+
+                                            <div class="block2-btn-addcart w-size1 trans-0-4" id="@item.ID">
+                                                <!-- Button -->
+                                                <button  class="flex-c-m size1 bg4 bo-rad-23 hov1 s-text1 trans-0-4">
+                                                    Add to Cart
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.8.3/jquery.js"></script>
+
+                                    <script type="text/javascript">
+		                              $('#@item.ID').on('click', function () {
+		                                       $.ajax({
+			                                        url: '@Url.Action("addToCart", "Home", new {productID = @item.ID})',
+			                                        type: "POST"
+		                                       });
+		                                  location.reload(true);
+
+		                              });
+                                      
+                                    </script>
+
+
+                                    <div class="block2-txt p-t-20">
+                                        <a href="product-detail.html" class="block2-name dis-block s-text3 p-b-5">
+                                            @item.ProductName
+                                        </a>
+
+                                        <span class="block2-price m-text6 p-r-5">
+                                            @item.Price;
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        }
+
+                    }
+
+              
+                    @*//
+                    <div class="item-slick2 p-l-15 p-r-15">
+                        <!-- Block2 -->
+                        <div class="block2">
+                            <div class="block2-img wrap-pic-w of-hidden pos-relative">
+                                <img src="~/Content/images/item-03.jpg" alt="IMG-PRODUCT">
+
+                                <div class="block2-overlay trans-0-4">
+                                    <a href="#" class="block2-btn-addwishlist hov-pointer trans-0-4">
+                                        <i class="icon-wishlist icon_heart_alt" aria-hidden="true"></i>
+                                        <i class="icon-wishlist icon_heart dis-none" aria-hidden="true"></i>
+                                    </a>
+
+                                    <div class="block2-btn-addcart w-size1 trans-0-4">
+                                        <!-- Button -->
+                                        <button class="flex-c-m size1 bg4 bo-rad-23 hov1 s-text1 trans-0-4">
+                                            Add to Cart
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="block2-txt p-t-20">
+                                <a href="product-detail.html" class="block2-name dis-block s-text3 p-b-5">
+                                    Denim jacket blue
+                                </a>
+
+                                <span class="block2-price m-text6 p-r-5">
+                                    $92.50
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item-slick2 p-l-15 p-r-15">
+                        <!-- Block2 -->
+                        <div class="block2">
+                            <div class="block2-img wrap-pic-w of-hidden pos-relative">
+                                <img src="~/Content/images/item-05.jpg" alt="IMG-PRODUCT">
+
+                                <div class="block2-overlay trans-0-4">
+                                    <a href="#" class="block2-btn-addwishlist hov-pointer trans-0-4">
+                                        <i class="icon-wishlist icon_heart_alt" aria-hidden="true"></i>
+                                        <i class="icon-wishlist icon_heart dis-none" aria-hidden="true"></i>
+                                    </a>
+
+                                    <div class="block2-btn-addcart w-size1 trans-0-4">
+                                        <!-- Button -->
+                                        <button class="flex-c-m size1 bg4 bo-rad-23 hov1 s-text1 trans-0-4">
+                                            Add to Cart
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="block2-txt p-t-20">
+                                <a href="product-detail.html" class="block2-name dis-block s-text3 p-b-5">
+                                    Coach slim easton black
+                                </a>
+
+                                <span class="block2-price m-text6 p-r-5">
+                                    $165.90
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item-slick2 p-l-15 p-r-15">
+                        <!-- Block2 -->
+                        <div class="block2">
+                            <div class="block2-img wrap-pic-w of-hidden pos-relative block2-labelsale">
+                                <img src="~/Content/images/item-07.jpg" alt="IMG-PRODUCT">
+
+                                <div class="block2-overlay trans-0-4">
+                                    <a href="#" class="block2-btn-addwishlist hov-pointer trans-0-4">
+                                        <i class="icon-wishlist icon_heart_alt" aria-hidden="true"></i>
+                                        <i class="icon-wishlist icon_heart dis-none" aria-hidden="true"></i>
+                                    </a>
+
+                                    <div class="block2-btn-addcart w-size1 trans-0-4">
+                                        <!-- Button -->
+                                        <button class="flex-c-m size1 bg4 bo-rad-23 hov1 s-text1 trans-0-4">
+                                            Add to Cart
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="block2-txt p-t-20">
+                                <a href="product-detail.html" class="block2-name dis-block s-text3 p-b-5">
+                                    Frayed denim shorts
+                                </a>
+
+                                <span class="block2-oldprice m-text7 p-r-5">
+                                    $29.50
+                                </span>
+
+                                <span class="block2-newprice m-text8 p-r-5">
+                                    $15.90
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item-slick2 p-l-15 p-r-15">
+                        <!-- Block2 -->
+                        <div class="block2">
+                            <div class="block2-img wrap-pic-w of-hidden pos-relative block2-labelnew">
+                                <img src="~/Content/images/item-02.jpg" alt="IMG-PRODUCT">
+
+                                <div class="block2-overlay trans-0-4">
+                                    <a href="#" class="block2-btn-addwishlist hov-pointer trans-0-4">
+                                        <i class="icon-wishlist icon_heart_alt" aria-hidden="true"></i>
+                                        <i class="icon-wishlist icon_heart dis-none" aria-hidden="true"></i>
+                                    </a>
+
+                                    <div class="block2-btn-addcart w-size1 trans-0-4">
+                                        <!-- Button -->
+                                        <button class="flex-c-m size1 bg4 bo-rad-23 hov1 s-text1 trans-0-4">
+                                            Add to Cart
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="block2-txt p-t-20">
+                                <a href="product-detail.html" class="block2-name dis-block s-text3 p-b-5">
+                                    Herschel supply co 25l
+                                </a>
+
+                                <span class="block2-price m-text6 p-r-5">
+                                    $75.00
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item-slick2 p-l-15 p-r-15">
+                        <!-- Block2 -->
+                        <div class="block2">
+                            <div class="block2-img wrap-pic-w of-hidden pos-relative">
+                                <img src="~/Content/images/item-03.jpg" alt="IMG-PRODUCT">
+
+                                <div class="block2-overlay trans-0-4">
+                                    <a href="#" class="block2-btn-addwishlist hov-pointer trans-0-4">
+                                        <i class="icon-wishlist icon_heart_alt" aria-hidden="true"></i>
+                                        <i class="icon-wishlist icon_heart dis-none" aria-hidden="true"></i>
+                                    </a>
+
+                                    <div class="block2-btn-addcart w-size1 trans-0-4">
+                                        <!-- Button -->
+                                        <button class="flex-c-m size1 bg4 bo-rad-23 hov1 s-text1 trans-0-4">
+                                            Add to Cart
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="block2-txt p-t-20">
+                                <a href="product-detail.html" class="block2-name dis-block s-text3 p-b-5">
+                                    Denim jacket blue
+                                </a>
+
+                                <span class="block2-price m-text6 p-r-5">
+                                    $92.50
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item-slick2 p-l-15 p-r-15">
+                        <!-- Block2 -->
+                        <div class="block2">
+                            <div class="block2-img wrap-pic-w of-hidden pos-relative">
+                                <img src="~/Content/images/item-05.jpg" alt="IMG-PRODUCT">
+
+                                <div class="block2-overlay trans-0-4">
+                                    <a href="#" class="block2-btn-addwishlist hov-pointer trans-0-4">
+                                        <i class="icon-wishlist icon_heart_alt" aria-hidden="true"></i>
+                                        <i class="icon-wishlist icon_heart dis-none" aria-hidden="true"></i>
+                                    </a>
+
+                                    <div class="block2-btn-addcart w-size1 trans-0-4">
+                                        <!-- Button -->
+                                        <button class="flex-c-m size1 bg4 bo-rad-23 hov1 s-text1 trans-0-4">
+                                            Add to Cart
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="block2-txt p-t-20">
+                                <a href="product-detail.html" class="block2-name dis-block s-text3 p-b-5">
+                                    Coach slim easton black
+                                </a>
+
+                                <span class="block2-price m-text6 p-r-5">
+                                    $165.90
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item-slick2 p-l-15 p-r-15">
+                        <!-- Block2 -->
+                        <div class="block2">
+                            <div class="block2-img wrap-pic-w of-hidden pos-relative block2-labelsale">
+                                <img src="~/Content/images/item-07.jpg" alt="IMG-PRODUCT">
+
+                                <div class="block2-overlay trans-0-4">
+                                    <a href="#" class="block2-btn-addwishlist hov-pointer trans-0-4">
+                                        <i class="icon-wishlist icon_heart_alt" aria-hidden="true"></i>
+                                        <i class="icon-wishlist icon_heart dis-none" aria-hidden="true"></i>
+                                    </a>
+
+                                    <div class="block2-btn-addcart w-size1 trans-0-4">
+                                        <!-- Button -->
+                                        <button class="flex-c-m size1 bg4 bo-rad-23 hov1 s-text1 trans-0-4">
+                                            Add to Cart
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="block2-txt p-t-20">
+                                <a href="product-detail.html" class="block2-name dis-block s-text3 p-b-5">
+                                    Frayed denim shorts
+                                </a>
+
+                                <span class="block2-oldprice m-text7 p-r-5">
+                                    $29.50
+                                </span>
+
+                                <span class="block2-newprice m-text8 p-r-5">
+                                    $15.90
+                                </span>
+                            </div>
+                        </div>
+                    </div>*@
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Banner2 -->
+    <section class="banner2 bg5 p-t-55 p-b-55">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-10 col-md-8 col-lg-6 m-l-r-auto p-t-15 p-b-15">
+                    <div class="hov-img-zoom pos-relative">
+                        <img src="@ViewBag.h7.path" alt="h7 option" style="height:400px;">
+
+                        <div class="ab-t-l sizefull flex-col-c-m p-l-15 p-r-15">
+                      
+
+                            <h3 class="l-text1 fs-35-sm">
+                                @ViewBag.h7.name
+                            </h3>
+
+                            <a href="@ViewBag.h7.description" class="s-text4 hov2 p-t-20 ">
+                               @ViewBag.h7.fulldescription
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-10 col-md-8 col-lg-6 m-l-r-auto p-t-15 p-b-15">
+                    <div class="bgwhite hov-img-zoom pos-relative p-b-20per-ssm">
+                        <img src="@ViewBag.h8.path" alt="h8 option" style="height:400px;">
+
+                        <div class="ab-t-l sizefull flex-col-c-b p-l-15 p-r-15 p-b-20">
+                            <div class="t-center">
+                                <a href="@ViewBag.h8.description" class="dis-block s-text3 p-b-5">
+                                  @ViewBag.h8.name
+                                </a>
+
+                                <span class="block2-oldprice m-text7 p-r-5">
+                                    @ViewBag.h8.fulldescription
+                                </span>
+
+                                <span class="block2-newprice m-text8">
+                                    @ViewBag.h8.newprice
+                                </span>
+                            </div>
+
+                            <div class="flex-c-m p-t-44 p-t-30-xl">
+                                <div class="flex-col-c-m size3 bo1 m-l-5 m-r-5">
+                                    <span class="m-text10 p-b-1 days">
+                                        3
+                                    </span>
+
+                                    <span class="s-text5">
+                                        days
+                                    </span>
+                                </div>
+
+                                <div class="flex-col-c-m size3 bo1 m-l-5 m-r-5">
+                                    <span class="m-text10 p-b-1 hours">
+                                        04
+                                    </span>
+
+                                    <span class="s-text5">
+                                        hrs
+                                    </span>
+                                </div>
+
+                                <div class="flex-col-c-m size3 bo1 m-l-5 m-r-5">
+                                    <span class="m-text10 p-b-1 minutes">
+                                        32
+                                    </span>
+
+                                    <span class="s-text5">
+                                        mins
+                                    </span>
+                                </div>
+
+                                <div class="flex-col-c-m size3 bo1 m-l-5 m-r-5">
+                                    <span class="m-text10 p-b-1 seconds">
+                                        05
+                                    </span>
+
+                                    <span class="s-text5">
+                                        secs
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Blog -->
+    <section class="blog bgwhite p-t-94 p-b-65">
+        <div class="container">
+            <div class="sec-title p-b-52">
+                <h3 class="m-text5 t-center">
+                    @{
+                        text = "";
+
+                        if (!FasheShop.Control.Status.isRu)
+                        {
+                            text = " Our Blog";
+
+
+                        }
+                        else
+                        {
+                            text = "Наш блог";
+                        }
+
+                    }
+                    @text
+                </h3>
+            </div>
+
+            <div class="row">
+
+                @{
+                    foreach (var item in ViewBag.news)
+                    {
+                        <div class="col-sm-10 col-md-4 p-b-30 m-l-r-auto">
+                            <!-- Block3 -->
+                            <div class="block3">
+                                <a href="blog-detail.html" class="block3-img dis-block hov-img-zoom temp">
+                                    <img src="@item.Picture" alt="IMG-BLOG">
+                                </a>
+
+                                <div class="block3-txt p-t-14">
+                                    <h4 class="p-b-7">
+                                        <a href="blog-detail.html" class="m-text11">
+                                           @item.Title
+                                        </a>
+                                    </h4>
+
+                                    <span class="s-text6">By</span> <span class="s-text7">Admin</span>
+                                    <span class="s-text6">on</span> <span class="s-text7">@item.Date.ToShortDateString()</span>
+
+                                    <p class="s-text8 p-t-16">
+                                        @item.Excerpt
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                }
+              
+
+              
+            </div>
+        </div>
+    </section>
+
+    <!-- Instagram -->
+    <section class="instagram p-t-20">
+        <div class="sec-title p-b-52 p-l-15 p-r-15">
+            <h3 class="m-text5 t-center">
+                @{
+                    text = "";
+
+                    if (!FasheShop.Control.Status.isRu)
+                    {
+                        text = " Sale Products";
+
+
+                    }
+                    else
+                    {
+                        text = "Продажа товаров";
+                    }
+
+                }
+                @text
+            </h3>
+        </div>
+
+        <div class="flex-w">
+
+            @{
+                foreach (var item in ViewBag.saleproducts)
+                {
+                      <!-- Block4 -->
+                    <div class="block4 wrap-pic-w">
+                        <img src="@item.Picture" alt="IMG-INSTAGRAM">
+
+                        <a href="#" class="block4-overlay sizefull ab-t-l trans-0-4">
+                            <span class="block4-overlay-heart s-text9 flex-m trans-0-4 p-l-40 p-t-25">
+                                <i class="icon_creditcard fs-20 p-r-12" aria-hidden="true"></i>
+                                <span class="p-t-2">@Math.Round(Convert.ToDouble(item.Price), 2) UZS</span>
+                            </span>
+
+                            <div class="block4-overlay-txt trans-0-4 p-l-40 p-r-25 p-b-30">
+                                <p class="s-text10 m-b-15 h-size1 of-hidden">
+                                   @item.ProductName - @item.Description
+                                </p>
+
+                                <span class="s-text9">
+                                    added by Admin
+                                </span>
+                            </div>
+                        </a>
+                    </div>
+                }
+            }
+          
+
+        
+        </div>
+    </section>
+
+    <!-- Shipping -->
+    <section class="shipping bgwhite p-t-62 p-b-46">
+        <div class="flex-w p-l-15 p-r-15">
+            <div class="flex-col-c w-size5 p-l-15 p-r-15 p-t-16 p-b-15 respon1">
+                <h4 class="m-text12 t-center">
+                    @{
+                        string str = "";
+                        if (!FasheShop.Control.Status.isRu)
+                        {
+                            str = "Free Delivery Worldwide";
+                        }
+                        else
+                        {
+                            str = "Бесплатная доставка";
+                        }
+
+                        
+                    }
+                    @str
+                </h4>
+                @{
+                    if (!FasheShop.Control.Status.isRu)
+                    {
+                        <a href="@ViewBag.f1.description" class="s-text11 t-center">
+                            @ViewBag.f1.fulldescription
+                        </a>
+                    }
+                    else
+                    {
+                        <a href="@ViewBag.f1.description" class="s-text11 t-center">
+                            Нажмите здесь для дополнительной информации
+                        </a>
+                    }
+                }
+              
+            </div>
+
+            <div class="flex-col-c w-size5 p-l-15 p-r-15 p-t-16 p-b-15 bo2 respon2">
+                <h4 class="m-text12 t-center">
+                    @{
+                        if (!FasheShop.Control.Status.isRu)
+                        {
+                            str = "30 Days Return";
+                        }
+                        else
+                        {
+                            str = "30 дней возврата";
+                                    }
+                    }
+                    @str;
+                </h4>
+                @{
+                    if (!FasheShop.Control.Status.isRu)
+                    {
+                        <span class="s-text11 t-center">
+                            @ViewBag.f2.fulldescription
+                        </span>
+                    }
+                    else
+                    {
+                        <span class="s-text11 t-center">
+                            Просто верните его в течение 30 дней для обмена.
+                        </span>
+                    }
+                }
+
+              
+            </div>
+
+            <div class="flex-col-c w-size5 p-l-15 p-r-15 p-t-16 p-b-15 respon1">
+                <h4 class="m-text12 t-center">
+                    @{
+                        if (!FasheShop.Control.Status.isRu)
+                        {
+                            str = ViewBag.f3.name;
+                        }
+                        else
+                        {
+                            str = "Открытие магазина";
+                        }
+                    }
+                    @str
+                </h4>
+
+                <span class="s-text11 t-center">
+                    @{
+                        if (!FasheShop.Control.Status.isRu)
+                        {
+                            str = ViewBag.f3.fulldescription;
+                        }
+                        else
+                        {
+                            str = " Магазин открыт с понедельника по воскресенье";
+                        }
+                    }
+                    @str
+                  
+                </span>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="bg6 p-t-45 p-b-43 p-l-45 p-r-45">
+        <div class="flex-w p-b-90">
+            <div class="w-size6 p-t-30 p-l-15 p-r-15 respon3">
+                <h4 class="s-text12 p-b-30">
+                    @{
+                      
+
+                        if (!FasheShop.Control.Status.isRu)
+                        {
+                            str = "GET IN TOUCH";
+
+
+                        }
+                        else
+                        {
+                            str = "СВЯЗАТЬСЯ";
+                        }
+                    }
+                    @str
+                </h4>
+
+                <div>
+                    <p class="s-text7 w-size27">
+                        @{
+                            if (!FasheShop.Control.Status.isRu)
+                            {
+                                str = "Any questions? Let us know in store at 8th floor, 379 Hudson St, New York, NY 10018 or call us on (+1) 96 716 6879";
+
+                            }
+                            else
+                            {
+                                str = "Любые вопросы? Дайте нам знать в магазине на 8 - м этаже, 379 Hudson St, New York, NY 10018 или позвоните нам по (+1) 96 716 6879";
+                            }
+                        }
+                        @str
+                    </p>
+
+                </div>
+            </div>
+
+            <div class="w-size7 p-t-30 p-l-15 p-r-15 respon4">
+                <h4 class="s-text12 p-b-30">
+                    @ViewBag.fc.name
+                </h4>
+
+                <ul>
+                    <li class="p-b-9">
+                        <a href="@ViewBag.f5.description" class="s-text7">
+                            @ViewBag.f5.name
+
+                        </a>
+                    </li>
+
+                    <li class="@ViewBag.f6.description">
+                        <a href="#" class="s-text7">
+                            @ViewBag.f6.name
+
+                        </a>
+                    </li>
+
+                    <li class="p-b-9">
+                        <a href="@ViewBag.f7.description" class="s-text7">
+                            @ViewBag.f7.name
+                        </a>
+                    </li>
+
+                    <li class="p-b-9">
+                        <a href="@ViewBag.f8.description" class="s-text7">
+                            @ViewBag.f8.name
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="w-size7 p-t-30 p-l-15 p-r-15 respon4">
+                <h4 class="s-text12 p-b-30">
+                    @ViewBag.fl.name
+                </h4>
+
+                <ul>
+                    <li class="p-b-9">
+                        <a href="@ViewBag.f9.description" class="s-text7">
+                            @ViewBag.f9.name
+                        </a>
+                    </li>
+
+                    <li class="p-b-9">
+                        <a href="@ViewBag.f10.description" class="s-text7">
+                            @ViewBag.f10.name
+                        </a>
+                    </li>
+
+                    <li class="p-b-9">
+                        <a href="@ViewBag.f11.description" class="s-text7">
+                            @ViewBag.f11.name
+                        </a>
+                    </li>
+
+                    <li class="p-b-9">
+                        <a href="@ViewBag.f12.description" class="s-text7">
+                            @ViewBag.f12.name
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="w-size7 p-t-30 p-l-15 p-r-15 respon4">
+                <h4 class="s-text12 p-b-30">
+                    @ViewBag.fh.name
+                </h4>
+
+                <ul>
+                    <li class="p-b-9">
+                        <a href="@ViewBag.f13.description" class="s-text7">
+                            @ViewBag.f13.name
+                        </a>
+                    </li>
+
+                    <li class="p-b-9">
+                        <a href="@ViewBag.f14.description" class="s-text7">
+                            @ViewBag.f14.name
+                        </a>
+                    </li>
+
+                    <li class="p-b-9">
+                        <a href="@ViewBag.f15.description" class="s-text7">
+                            @ViewBag.f15.name
+                        </a>
+                    </li>
+
+
+                </ul>
+            </div>
+
+            <div class="w-size8 p-t-30 p-l-15 p-r-15 respon3">
+                <h4 class="s-text12 p-b-30">
+                    Newsletter
+                </h4>
+
+                <form>
+                    <div class="effect1 w-size9">
+                        <input class="s-text7 bg6 w-full p-b-5" type="text" name="email" placeholder="email@example.com">
+                        <span class="effect1-line"></span>
+                    </div>
+
+                    <div class="w-size2 p-t-20">
+                        <!-- Button -->
+                        <button class="flex-c-m size2 bg4 bo-rad-23 hov1 m-text3 trans-0-4">
+                            Subscribe
+                        </button>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+
+        <div class="t-center p-l-15 p-r-15">
+            <a href="#">
+                <img class="h-size2" src="~/Content/images/icons/paypal.png" alt="IMG-PAYPAL">
+            </a>
+
+            <a href="#">
+                <img class="h-size2" src="~/Content/images/icons/visa.png" alt="IMG-VISA">
+            </a>
+
+            <a href="#">
+                <img class="h-size2" src="~/Content/images/icons/mastercard.png" alt="IMG-MASTERCARD">
+            </a>
+
+            <a href="#">
+                <img class="h-size2" src="~/Content/images/icons/express.png" alt="IMG-EXPRESS">
+            </a>
+
+            <a href="#">
+                <img class="h-size2" src="~/Content/images/icons/discover.png" alt="IMG-DISCOVER">
+            </a>
+
+            @{
+                if (!FasheShop.Control.Status.isRu)
+                {
+                    <div class="t-center s-text8 p-t-20">
+                        @ViewBag.f16.name  | @ViewBag.f16.fulldescription <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="@ViewBag.f16.newprice" target="_blank">@ViewBag.f16.description</a>
+                    </div>
+                }
+                else
+                {
+                    <div class="t-center s-text8 p-t-20">
+                        Copyright © 2018 Все права защищены.  | Этот шаблон сделан с <i class="fa fa-heart-o" aria-hidden="true"></i> от <a href="@ViewBag.f16.newprice" target="_blank">@ViewBag.f16.description</a>
+                    </div>
+                }
+            }
+
+        </div>
+    </footer>
+
+
+
+
+
+
+
+    <!-- Back to top -->
+    <div class="btn-back-to-top bg0-hov" id="myBtn">
+        <span class="symbol-btn-back-to-top">
+            <i class="fa fa-angle-double-up" aria-hidden="true"></i>
+        </span>
+    </div>
+
+    <!-- Container Selection1 -->
+    <div id="dropDownSelect1"></div>
+
+
+
+    <!--===============================================================================================-->
+    <script type="text/javascript" src="~/Content/vendor/jquery/jquery-3.2.1.min.js"></script>
+    <!--===============================================================================================-->
+    <script type="text/javascript" src="~/Content/vendor/animsition/js/animsition.min.js"></script>
+    <!--===============================================================================================-->
+    <script type="text/javascript" src="~/Content/vendor/bootstrap/js/popper.js"></script>
+    <script type="text/javascript" src="~/Content/vendor/bootstrap/js/bootstrap.min.js"></script>
+    <!--===============================================================================================-->
+    <script type="text/javascript" src="~/Content/vendor/select2/select2.min.js"></script>
+    <script type="text/javascript">
+		$(".selection-1").select2({
+			minimumResultsForSearch: 20,
+			dropdownParent: $('#dropDownSelect1')
+		});
+    </script>
+    <!--===============================================================================================-->
+    <script type="text/javascript" src="~/Content/vendor/slick/slick.min.js"></script>
+    <script type="text/javascript" src="~/Content/js/slick-custom.js"></script>
+    <!--===============================================================================================-->
+    <script type="text/javascript" src="~/Content/vendor/countdowntime/countdowntime.js"></script>
+    <!--===============================================================================================-->
+    <script type="text/javascript" src="~/Content/vendor/lightbox2/js/lightbox.min.js"></script>
+    <!--===============================================================================================-->
+    <script type="text/javascript" src="~/Content/vendor/sweetalert/sweetalert.min.js"></script>
+    <script type="text/javascript">
+		$('.block2-btn-addcart').each(function(){
+			var nameProduct = $(this).parent().parent().parent().find('.block2-name').html();
+			$(this).on('click', function(){
+			    swal(nameProduct, "is added to cart !", "success");
+
+			});
+		});
+
+		$('.block2-btn-addwishlist').each(function(){
+			var nameProduct = $(this).parent().parent().parent().find('.block2-name').html();
+			$(this).on('click', function(){
+				swal(nameProduct, "is added to wishlist !", "success");
+			});
+		});
+    </script>
+
+    <!--===============================================================================================-->
+    <script src="~/Content/js/main.js"></script>
+
+</body>
+</html>
+

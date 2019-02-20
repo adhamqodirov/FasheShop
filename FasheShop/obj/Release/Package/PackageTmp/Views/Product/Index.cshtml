@@ -1,0 +1,258 @@
+﻿@model IEnumerable<FasheShop.Models.Product>
+
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>FasheShop Admin</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="robots" content="all,follow">
+    <!-- Bootstrap CSS-->
+    <link rel="stylesheet" href="~/Content/admin/distribution/vendor/bootstrap/css/bootstrap.min.css">
+    <!-- Font Awesome CSS-->
+    <link rel="stylesheet" href="~/Content/admin/distribution/vendor/font-awesome/css/font-awesome.min.css">
+    <!-- Fontastic Custom icon font-->
+    <link rel="stylesheet" href="~/Content/admin/distribution/css/fontastic.css">
+    <!-- Google fonts - Poppins -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,700">
+    <!-- theme stylesheet-->
+    <link rel="stylesheet" href="~/Content/admin/distribution/css/style.default.css" id="theme-stylesheet">
+    <!-- Custom stylesheet - for your changes-->
+    <link rel="stylesheet" href="~/Content/admin/distribution/css/custom.css">
+    <!-- Favicon-->
+    <link rel="shortcut icon" href="~/Content/admin/distribution/img/favicon.ico">
+    <!-- Tweaks for older IEs-->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+</head>
+<body>
+    <div class="page">
+        <!-- Main Navbar-->
+        <header class="header">
+            <nav class="navbar">
+                <!-- Search Box-->
+                <div class="search-box">
+                    <button class="dismiss"><i class="icon-close"></i></button>
+                    <form id="searchForm" action="#" role="search">
+                        <input type="search" placeholder="What are you looking for..." class="form-control">
+                    </form>
+                </div>
+                <div class="container-fluid">
+                    <div class="navbar-holder d-flex align-items-center justify-content-between">
+                        <!-- Navbar Header-->
+                        <div class="navbar-header">
+                            <!-- Navbar Brand --><a href="/home/index" class="navbar-brand d-none d-sm-inline-block">
+                                <div class="brand-text d-none d-lg-inline-block"><span>Fashe </span><strong>Shop</strong></div>
+                                <div class="brand-text d-none d-sm-inline-block d-lg-none"><strong>Fashe</strong></div>
+                            </a>
+                            <!-- Toggle Button--><a id="toggle-btn" href="#" class="menu-btn active"><span></span><span></span><span></span></a>
+                        </div>
+                        <!-- Navbar Menu -->
+                        <ul class="nav-menu list-unstyled d-flex flex-md-row align-items-md-center">
+                            <!-- Search-->
+                            <li class="nav-item d-flex align-items-center"><a id="search" href="#"><i class="icon-search"></i></a></li>
+                          
+                            <li class="nav-item"><a href="/admin/logout" class="nav-link logout"> <span class="d-none d-sm-inline">Logout</span><i class="fa fa-sign-out"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <div class="page-content d-flex align-items-stretch">
+            <!-- Side Navbar -->
+            <nav class="side-navbar">
+                <!-- Sidebar Header-->
+                <div class="sidebar-header d-flex align-items-center">
+                    <div class="avatar"><img src="~/Content/admin/distribution/img/avatar-8.jpg" alt="..." class="img-fluid rounded-circle"></div>
+                    <div class="title">
+                        <h1 class="h4">Elizabeth</h1>
+                        <p>Web Designer</p>
+                    </div>
+                </div>
+                <!-- Sidebar Navidation Menus--><span class="heading">Main</span>
+                <ul class="list-unstyled">
+                    <li><a href="/Admin/Index"> <i class="icon-home"></i>Home </a></li>
+
+
+                    <li>
+                        <a href="#exampledropdownDropdown3" aria-expanded="false" data-toggle="collapse"> <i class="icon icon-website"></i>News </a>
+                        <ul id="exampledropdownDropdown3" class="collapse list-unstyled ">
+                            <li><a href="/News/index">All News</a></li>
+                            <li><a href="/News/create">Add Post</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#exampledropdownDropdown2" aria-expanded="false" data-toggle="collapse"> <i class="icon icon-list-1"></i>Orders </a>
+                        <ul id="exampledropdownDropdown2" class="collapse list-unstyled ">
+                            <li><a href="#">All Orders </a></li>
+                            <li><a href="#">Add Order</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#exampledropdownDropdown" aria-expanded="false" data-toggle="collapse"> <i class="icon icon-page"></i>Products </a>
+                        <ul id="exampledropdownDropdown" class="collapse list-unstyled ">
+                            <li  class="active"><a href="/Product/Index">All Product</a></li>
+                            <li><a href="/Product/Create">Add Product</a></li>
+                        </ul>
+                    </li>
+                </ul><span class="heading">Extras</span>
+                <ul class="list-unstyled">
+
+                    <li> <a href="/Admin/Messages"> <i class="icon-mail"></i>Messages </a></li>
+                    <li> <a href="/Admin/Options"> <i class="icon-grid"></i>Options </a></li>
+                    <li> <a href="/Admin/export"> <i class="icon-form"></i>Export Import </a></li>
+                      </ul>
+            </nav>
+            <div class="content-inner">
+                <!-- Page Header-->
+                <header class="page-header">
+                    <div class="container-fluid">
+                        <h2 class="no-margin-bottom">Products</h2>
+                    </div>
+                </header>
+
+                <section class="tables">
+                    <div class="container-fluid">
+                        <div class="row">
+
+                            <div class="col-lg-12">
+                                <div class="card">
+                                    <div class="card-close">
+                                        <div class="dropdown">
+                                            <button type="button" id="closeCard2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="dropdown-toggle"><i class="fa fa-ellipsis-v"></i></button>
+                                            <div aria-labelledby="closeCard2" class="dropdown-menu dropdown-menu-right has-shadow"><a href="#" class="dropdown-item remove"> <i class="fa fa-times"></i>Close</a><a href="#" class="dropdown-item edit"> <i class="fa fa-gear"></i>Edit</a></div>
+                                        </div>
+                                    </div>
+                                    <div class="card-header d-flex align-items-center">
+                                        <h3 class="h4"><a href="/Product/Create" class="btn-success btn">New product</a></h3>
+                                    </div>
+
+
+
+                                    <div class="card-body">
+                                        <div class="table-responsive">
+                                            <table class="table table-striped">
+                                                <thead>
+                                                    <tr>
+                                                        <th>#</th>
+                                                        <th>Picture</th>
+                                                        <th>ProductName</th>
+                                                        <th>Price</th>
+                                                     
+                                                        <th>Description</th>
+                                                        <th>ReceivedTime</th>
+                                                        <th>Lang</th>
+                                                        @*<th>OrderNumber</th>
+                                                        <th>ProductCategory</th>*@
+                                                        <th></th>
+                                                        <th></th>
+
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    @{
+                                                        foreach (var item in Model)
+                                                        {
+
+                                                            <tr>
+                                                                <th scope="row">1</th>
+                                                          
+                                                                <td>
+                                                                    <img src="@item.Picture"  style="width:130px; height:130px;  object-fit: cover;" alt="Alternate Text" />
+                                                               
+                                                                
+                                                                </td>
+                                                                <td>@item.ProductName</td>
+                                                                <td>@Math.Round(Convert.ToDouble(item.Price), 2)</td>
+                                                            
+                                                                <td>@item.Description</td>
+                                                                <td>@item.ReceivedTime.Value.ToShortDateString()</td>
+                                                                <td>@item.language</td>
+                                                                @*<td>@item.Order</td>
+                                                                <td>@item.ProductCategory</td>*@
+                                                               
+                                                                <td>
+                                                                    <a href="@Url.Action("Edit", "Product", new { id=item.ID })" class="btn btn-info">
+                                                                   
+                                                                        <span>
+                                                                            <strong>Edit</strong>
+                                                                        </span>
+                                                                    </a>
+                                                                   
+                                                                 
+                                                                </td>
+
+                                                                <td>
+                                                                    <a href="@Url.Action("Delete", "Product", new { id=item.ID })" class="btn btn-danger">
+                                                                        <i class="icon-close icon-white"></i>
+                                                                        <span>
+                                                                            <strong>Delete</strong>
+                                                                        </span>
+                                                                    </a>
+                                                                </td>
+                                                            </tr>
+
+
+
+
+
+
+
+                                                                    }
+                                                    }
+
+
+
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </section>
+
+
+
+
+
+                <!-- Page Footer-->
+                <footer class="main-footer">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <p>Your company &copy; 2019-2020</p>
+                            </div>
+                            <div class="col-sm-6 text-right">
+                                <p>Powered by <a href="#" class="external">Yourname</a></p>
+                                <!-- Please do not remove the backlink to us unless you support further theme's development at https://bootstrapious.com/donate. It is part of the license conditions. Thank you for understanding :)-->
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+            </div>
+        </div>
+    </div>
+    <!-- JavaScript files-->
+    <script src="~/Content/admin/distribution/vendor/jquery/jquery.min.js"></script>
+    <script src="~/Content/admin/distribution/vendor/popper.js/umd/popper.min.js"> </script>
+    <script src="~/Content/admin/distribution/vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="~/Content/admin/distribution/vendor/jquery.cookie/jquery.cookie.js"> </script>
+    <script src="~/Content/admin/distribution/vendor/chart.js/Chart.min.js"></script>
+    <script src="~/Content/admin/distribution/vendor/jquery-validation/jquery.validate.min.js"></script>
+    <script src="~/Content/admin/distribution/js/charts-home.js"></script>
+    <!-- Main File-->
+    <script src="~/Content/admin/distribution/js/front.js"></script>
+
+</body>
+</html>

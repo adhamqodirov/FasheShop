@@ -1,0 +1,86 @@
+C:\Users\ajhog\Documents\Visual Studio 2015\Projects\FasheShop\FasheShop.Tests\bin\Debug\ApplicationInsights.config
+C:\Users\ajhog\Documents\Visual Studio 2015\Projects\FasheShop\FasheShop.Tests\bin\Debug\roslyn\csc.exe
+C:\Users\ajhog\Documents\Visual Studio 2015\Projects\FasheShop\FasheShop.Tests\bin\Debug\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\ajhog\Documents\Visual Studio 2015\Projects\FasheShop\FasheShop.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\ajhog\Documents\Visual Studio 2015\Projects\FasheShop\FasheShop.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\ajhog\Documents\Visual Studio 2015\Projects\FasheShop\FasheShop.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\ajhog\Documents\Visual Studio 2015\Projects\FasheShop\FasheShop.Tests\bin\Debug\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\ajhog\Documents\Visual Studio 2015\Projects\FasheShop\FasheShop.Tests\bin\Debug\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\ajhog\Documents\Visual Studio 2015\Projects\FasheShop\FasheShop.Tests\bin\Debug\roslyn\System.Collections.Immutable.dll
+C:\Users\ajhog\Documents\Visual Studio 2015\Projects\FasheShop\FasheShop.Tests\bin\Debug\roslyn\System.Reflection.Metadata.dll
+C:\Users\ajhog\Documents\Visual Studio 2015\Projects\FasheShop\FasheShop.Tests\bin\Debug\roslyn\vbc.exe
+C:\Users\ajhog\Documents\Visual Studio 2015\Projects\FasheShop\FasheShop.Tests\bin\Debug\roslyn\VBCSCompiler.exe
+C:\Users\ajhog\Documents\Visual Studio 2015\Projects\FasheShop\FasheShop.Tests\bin\Debug\roslyn\VBCSCompiler.exe.config
+C:\Users\ajhog\Documents\Visual Studio 2015\Projects\FasheShop\FasheShop.Tests\bin\Debug\FasheShop.Tests.dll
+C:\Users\ajhog\Documents\Visual Studio 2015\Projects\FasheShop\FasheShop.Tests\bin\Debug\FasheShop.Tests.pdb
+C:\Users\ajhog\Documents\Visual Studio 2015\Projects\FasheShop\FasheShop.Tests\bin\Debug\FasheShop.dll
+C:\Users\ajhog\Documents\Visual Studio 2015\Projects\FasheShop\FasheShop.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\ajhog\Documents\Visual Studio 2015\Projects\FasheShop\FasheShop.Tests\bin\Debug\EntityFramework.dll
+C:\Users\ajhog\Documents\Visual Studio 2015\Projects\FasheShop\FasheShop.Tests\bin\Debug\System.Web.Mvc.dll
+C:\Users\ajhog\Documents\Visual Studio 2015\Projects\FasheShop\FasheShop.Tests\bin\Debug\System.Web.Razor.dll
+C:\Users\ajhog\Documents\Visual Studio 2015\Projects\FasheShop\FasheShop.Tests\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\ajhog\Documents\Visual Studio 2015\Projects\FasheShop\FasheShop.Tests\bin\Debug\System.Web.WebPages.dll
+C:\Users\ajhog\Documents\Visual Studio 2015\Projects\FasheShop\FasheShop.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\ajhog\Documents\Visual Studio 2015\Projects\FasheShop\FasheShop.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\ajhog\Documents\Visual Studio 2015\Projects\FasheShop\FasheShop.Tests\bin\Debug\FasheShop.pdb
+C:\Users\ajhog\Documents\Visual Studio 2015\Projects\FasheShop\FasheShop.Tests\bin\Debug\EntityFramework.xml
+C:\Users\ajhog\Documents\Visual Studio 2015\Projects\FasheShop\FasheShop.Tests\bin\Debug\System.Web.Mvc.xml
+C:\Users\ajhog\Documents\Visual Studio 2015\Projects\FasheShop\FasheShop.Tests\bin\Debug\System.Web.Razor.xml
+C:\Users\ajhog\Documents\Visual Studio 2015\Projects\FasheShop\FasheShop.Tests\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\ajhog\Documents\Visual Studio 2015\Projects\FasheShop\FasheShop.Tests\bin\Debug\System.Web.WebPages.xml
+C:\Users\ajhog\Documents\Visual Studio 2015\Projects\FasheShop\FasheShop.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\ajhog\Documents\Visual Studio 2015\Projects\FasheShop\FasheShop.Tests\bin\Debug\ru\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
+C:\Users\ajhog\Documents\Visual Studio 2015\Projects\FasheShop\FasheShop.Tests\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\ajhog\Documents\Visual Studio 2015\Projects\FasheShop\FasheShop.Tests\bin\Debug\ru\System.Web.Mvc.resources.dll
+C:\Users\ajhog\Documents\Visual Studio 2015\Projects\FasheShop\FasheShop.Tests\bin\Debug\ru\System.Web.Razor.resources.dll
+C:\Users\ajhog\Documents\Visual Studio 2015\Projects\FasheShop\FasheShop.Tests\bin\Debug\ru\System.Web.WebPages.Razor.resources.dll
+C:\Users\ajhog\Documents\Visual Studio 2015\Projects\FasheShop\FasheShop.Tests\bin\Debug\ru\System.Web.WebPages.resources.dll
+C:\Users\ajhog\Documents\Visual Studio 2015\Projects\FasheShop\FasheShop.Tests\bin\Debug\ru\System.Web.WebPages.Deployment.resources.dll
+C:\Users\ajhog\Documents\Visual Studio 2015\Projects\FasheShop\FasheShop.Tests\obj\Debug\FasheShop.Tests.csprojResolveAssemblyReference.cache
+C:\Users\ajhog\Documents\Visual Studio 2015\Projects\FasheShop\FasheShop.Tests\obj\Debug\FasheShop.Tests.dll
+C:\Users\ajhog\Documents\Visual Studio 2015\Projects\FasheShop\FasheShop.Tests\obj\Debug\FasheShop.Tests.pdb
+C:\Users\Successful\Desktop\FasheShop\FasheShop.Tests\bin\Debug\ApplicationInsights.config
+C:\Users\Successful\Desktop\FasheShop\FasheShop.Tests\bin\Debug\roslyn\csc.exe
+C:\Users\Successful\Desktop\FasheShop\FasheShop.Tests\bin\Debug\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Successful\Desktop\FasheShop\FasheShop.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Successful\Desktop\FasheShop\FasheShop.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Successful\Desktop\FasheShop\FasheShop.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Successful\Desktop\FasheShop\FasheShop.Tests\bin\Debug\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Successful\Desktop\FasheShop\FasheShop.Tests\bin\Debug\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Successful\Desktop\FasheShop\FasheShop.Tests\bin\Debug\roslyn\System.Collections.Immutable.dll
+C:\Users\Successful\Desktop\FasheShop\FasheShop.Tests\bin\Debug\roslyn\System.Reflection.Metadata.dll
+C:\Users\Successful\Desktop\FasheShop\FasheShop.Tests\bin\Debug\roslyn\vbc.exe
+C:\Users\Successful\Desktop\FasheShop\FasheShop.Tests\bin\Debug\roslyn\VBCSCompiler.exe
+C:\Users\Successful\Desktop\FasheShop\FasheShop.Tests\bin\Debug\roslyn\VBCSCompiler.exe.config
+C:\Users\Successful\Desktop\FasheShop\FasheShop.Tests\bin\Debug\FasheShop.Tests.dll.config
+C:\Users\Successful\Desktop\FasheShop\FasheShop.Tests\bin\Debug\FasheShop.Tests.dll
+C:\Users\Successful\Desktop\FasheShop\FasheShop.Tests\bin\Debug\FasheShop.Tests.pdb
+C:\Users\Successful\Desktop\FasheShop\FasheShop.Tests\bin\Debug\FasheShop.dll
+C:\Users\Successful\Desktop\FasheShop\FasheShop.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\Successful\Desktop\FasheShop\FasheShop.Tests\bin\Debug\EntityFramework.dll
+C:\Users\Successful\Desktop\FasheShop\FasheShop.Tests\bin\Debug\System.Web.Mvc.dll
+C:\Users\Successful\Desktop\FasheShop\FasheShop.Tests\bin\Debug\CaptchaMvc.dll
+C:\Users\Successful\Desktop\FasheShop\FasheShop.Tests\bin\Debug\System.Web.Razor.dll
+C:\Users\Successful\Desktop\FasheShop\FasheShop.Tests\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\Successful\Desktop\FasheShop\FasheShop.Tests\bin\Debug\System.Web.WebPages.dll
+C:\Users\Successful\Desktop\FasheShop\FasheShop.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\Successful\Desktop\FasheShop\FasheShop.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\Successful\Desktop\FasheShop\FasheShop.Tests\bin\Debug\FasheShop.pdb
+C:\Users\Successful\Desktop\FasheShop\FasheShop.Tests\bin\Debug\EntityFramework.xml
+C:\Users\Successful\Desktop\FasheShop\FasheShop.Tests\bin\Debug\System.Web.Mvc.xml
+C:\Users\Successful\Desktop\FasheShop\FasheShop.Tests\bin\Debug\CaptchaMvc.pdb
+C:\Users\Successful\Desktop\FasheShop\FasheShop.Tests\bin\Debug\CaptchaMvc.xml
+C:\Users\Successful\Desktop\FasheShop\FasheShop.Tests\bin\Debug\System.Web.Razor.xml
+C:\Users\Successful\Desktop\FasheShop\FasheShop.Tests\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\Successful\Desktop\FasheShop\FasheShop.Tests\bin\Debug\System.Web.WebPages.xml
+C:\Users\Successful\Desktop\FasheShop\FasheShop.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\Successful\Desktop\FasheShop\FasheShop.Tests\bin\Debug\ru\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
+C:\Users\Successful\Desktop\FasheShop\FasheShop.Tests\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\Successful\Desktop\FasheShop\FasheShop.Tests\bin\Debug\ru\System.Web.Mvc.resources.dll
+C:\Users\Successful\Desktop\FasheShop\FasheShop.Tests\bin\Debug\ru\System.Web.Razor.resources.dll
+C:\Users\Successful\Desktop\FasheShop\FasheShop.Tests\bin\Debug\ru\System.Web.WebPages.Razor.resources.dll
+C:\Users\Successful\Desktop\FasheShop\FasheShop.Tests\bin\Debug\ru\System.Web.WebPages.resources.dll
+C:\Users\Successful\Desktop\FasheShop\FasheShop.Tests\bin\Debug\ru\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Successful\Desktop\FasheShop\FasheShop.Tests\obj\Debug\FasheShop.Tests.csprojResolveAssemblyReference.cache
+C:\Users\Successful\Desktop\FasheShop\FasheShop.Tests\obj\Debug\FasheShop.Tests.dll
+C:\Users\Successful\Desktop\FasheShop\FasheShop.Tests\obj\Debug\FasheShop.Tests.pdb

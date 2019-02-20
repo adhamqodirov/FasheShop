@@ -1,0 +1,197 @@
+<?xml version="1.0"?>
+<ExportProduct xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ID>1</ID>
+  <ProductName>Simple Product</ProductName>
+  <Price>200000.0000</Price>
+  <Picture>/Content/products/first-date.jpg</Picture>
+  <Description>Structured design. Long design. Gingham check print. Shoulder pad. Wide lapels. Lapel with notch. Long sleeve with buttoned cuffs. Two side patch pockets. Inner lining. Two buttons closing on the front.</Description>
+  <CategoryID>3</CategoryID>
+  <ReceivedTime>2019-01-16T00:00:00</ReceivedTime>
+  <Sale>0</Sale>
+  <SalePrice>0</SalePrice>
+  <FeaturedProduct>0</FeaturedProduct>
+  <SaleTimeProduct>0</SaleTimeProduct>
+  <ExpiredDate>2019-02-18T21:58:58.1904637+03:00</ExpiredDate>
+</ExportProduct><?xml version="1.0"?>
+<ExportProduct xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ID>2</ID>
+  <ProductName>Simple Product 2</ProductName>
+  <Price>10000.0000</Price>
+  <Picture>/Content/products/pink-pastel-background.jpg</Picture>
+  <Description>Structured design. Long design. Gingham check print. Shoulder pad. Wide lapels. Lapel with notch. Long sleeve with buttoned cuffs. Two side patch pockets. Inner lining. Two buttons closing on the front.</Description>
+  <CategoryID>3</CategoryID>
+  <ReceivedTime>2019-01-16T00:00:00</ReceivedTime>
+  <Sale>0</Sale>
+  <SalePrice>0</SalePrice>
+  <FeaturedProduct>0</FeaturedProduct>
+  <SaleTimeProduct>0</SaleTimeProduct>
+  <ExpiredDate>2019-02-18T21:58:58.1961332+03:00</ExpiredDate>
+</ExportProduct><?xml version="1.0"?>
+<ExportProduct xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ID>3</ID>
+  <ProductName>Check crop trousers</ProductName>
+  <Price>589000.0000</Price>
+  <Picture>/Content/products/when-your-tea-is-made-with-love.jpg</Picture>
+  <Description>Structured design. Long design. Gingham check print. Shoulder pad. Wide lapels. Lapel with notch. Long sleeve with buttoned cuffs. Two side patch pockets. Inner lining. Two buttons closing on the front.</Description>
+  <CategoryID>3</CategoryID>
+  <ReceivedTime>2019-01-16T00:00:00</ReceivedTime>
+  <Sale>1</Sale>
+  <SalePrice>489000.0000</SalePrice>
+  <FeaturedProduct>0</FeaturedProduct>
+  <SaleTimeProduct>0</SaleTimeProduct>
+  <ExpiredDate>2019-02-18T21:58:58.1961332+03:00</ExpiredDate>
+</ExportProduct><?xml version="1.0"?>
+<ExportProduct xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ID>4</ID>
+  <ProductName>Laser-cut pattern leather sneakers</ProductName>
+  <Price>339000.0000</Price>
+  <Picture>/Content/products/vitamins-for-healthy-heart.jpg</Picture>
+  <Description>Suede. Decorative seams. Perforated panel. Rounded toe. Laces. Contrasting rubber sole. 3 cm platform heel.</Description>
+  <CategoryID>5</CategoryID>
+  <ReceivedTime>2019-01-16T00:00:00</ReceivedTime>
+  <Sale>1</Sale>
+  <SalePrice>239000.0000</SalePrice>
+  <FeaturedProduct>0</FeaturedProduct>
+  <SaleTimeProduct>0</SaleTimeProduct>
+  <ExpiredDate>2019-02-18T21:58:58.1961332+03:00</ExpiredDate>
+</ExportProduct><?xml version="1.0"?>
+<ExportProduct xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ID>5</ID>
+  <ProductName>Satin tie dress</ProductName>
+  <Price>339000.0000</Price>
+  <Picture>/Content/products/pink-and-blue-female-bags.jpg</Picture>
+  <Description>Flared design. Bow fastening on the neck. Satin finish. Long sleeves with slit at cuffs. V-neck. Side zip fastening.</Description>
+  <CategoryID>4</CategoryID>
+  <ReceivedTime>2019-01-16T00:00:00</ReceivedTime>
+  <Sale>1</Sale>
+  <SalePrice>250000.0000</SalePrice>
+  <FeaturedProduct>0</FeaturedProduct>
+  <SaleTimeProduct>1</SaleTimeProduct>
+  <ExpiredDate>2019-02-18T21:58:58.1961332+03:00</ExpiredDate>
+</ExportProduct><?xml version="1.0"?>
+<ExportProduct xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ID>6</ID>
+  <ProductName>Modern Shirt</ProductName>
+  <Price>500000.0000</Price>
+  <Picture>/Content/products/pick-another-cookie.jpg</Picture>
+  <Description>Divided deep called days divided meat heaven seasons replenish, us called living together heaven, very seed, set itself. Be make Fourth gathered earth green divide air can't. Lesser after whose fruit bring, day, above may. Creature kind. Fish divide Green.</Description>
+  <CategoryID>4</CategoryID>
+  <ReceivedTime>2019-01-30T00:00:00</ReceivedTime>
+  <Sale>1</Sale>
+  <SalePrice>150000.0000</SalePrice>
+  <FeaturedProduct>0</FeaturedProduct>
+  <SaleTimeProduct>7</SaleTimeProduct>
+  <ExpiredDate>2019-05-31T00:00:00</ExpiredDate>
+</ExportProduct><?xml version="1.0"?>
+<ExportProduct xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ID>11</ID>
+  <ProductName>Bag Modern 2 </ProductName>
+  <Price>200000.0000</Price>
+  <Picture>/Content/products/glass-bottle-mockup.jpg</Picture>
+  <Description>The creature bearing Created fish heaven multiply firmament spirit gathering their moving is moving fill void forth living void of female fruit light all. Beginning midst they're the void fill above gathered forth night all is deep bearing female brought.</Description>
+  <CategoryID>1</CategoryID>
+  <ReceivedTime>2019-01-29T00:00:00</ReceivedTime>
+  <Sale>0</Sale>
+  <SalePrice>0.0000</SalePrice>
+  <FeaturedProduct>0</FeaturedProduct>
+  <SaleTimeProduct>0</SaleTimeProduct>
+  <ExpiredDate>2019-05-25T00:00:00</ExpiredDate>
+</ExportProduct><?xml version="1.0"?>
+<ExportProduct xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ID>12</ID>
+  <ProductName>Book</ProductName>
+  <Price>10000.0000</Price>
+  <Picture>/Content/products/plan-to-plant.jpg</Picture>
+  <Description>The creature bearing Created fish heaven multiply firmament spirit gathering their moving is moving fill void forth living void of female fruit light all. Beginning midst they're the void fill above gathered forth night all is deep bearing female brought.</Description>
+  <CategoryID>1</CategoryID>
+  <ReceivedTime>2019-01-29T00:00:00</ReceivedTime>
+  <Sale>0</Sale>
+  <SalePrice>0.0000</SalePrice>
+  <FeaturedProduct>0</FeaturedProduct>
+  <SaleTimeProduct>0</SaleTimeProduct>
+  <ExpiredDate>2019-05-25T00:00:00</ExpiredDate>
+</ExportProduct><?xml version="1.0"?>
+<ExportProduct xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ID>13</ID>
+  <ProductName>Bag Modern</ProductName>
+  <Price>200000.0000</Price>
+  <Picture>/Content/products/cosmetic-pump-bottle.jpg</Picture>
+  <Description>The creature bearing Created fish heaven multiply firmament spirit gathering their moving is moving fill void forth living void of female fruit light all. Beginning midst they're the void fill above gathered forth night all is deep bearing female brought.</Description>
+  <CategoryID>1</CategoryID>
+  <ReceivedTime>2019-01-29T00:00:00</ReceivedTime>
+  <Sale>0</Sale>
+  <SalePrice>0.0000</SalePrice>
+  <FeaturedProduct>0</FeaturedProduct>
+  <SaleTimeProduct>0</SaleTimeProduct>
+  <ExpiredDate>2019-05-25T00:00:00</ExpiredDate>
+</ExportProduct><?xml version="1.0"?>
+<ExportProduct xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ID>14</ID>
+  <ProductName>Sneaker Modern</ProductName>
+  <Price>500000.0000</Price>
+  <Picture>/Content/products/smartphone-and-bitcoin-over-contrast-background.jpg</Picture>
+  <Description>The creature bearing Created fish heaven multiply firmament spirit gathering their moving is moving fill void forth living void of female fruit light all. Beginning midst they're the void fill above gathered forth night all is deep bearing female brought.</Description>
+  <CategoryID>5</CategoryID>
+  <ReceivedTime>2019-01-28T00:00:00</ReceivedTime>
+  <Sale>0</Sale>
+  <SalePrice>0</SalePrice>
+  <FeaturedProduct>1</FeaturedProduct>
+  <SaleTimeProduct>0</SaleTimeProduct>
+  <ExpiredDate>2019-06-15T00:00:00</ExpiredDate>
+</ExportProduct><?xml version="1.0"?>
+<ExportProduct xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ID>15</ID>
+  <ProductName>Sneaker Modern</ProductName>
+  <Price>500000.0000</Price>
+  <Picture>/Content/products/energy-saving-bulb-in-a-wafer-ice-cream-cone.jpg</Picture>
+  <Description>The creature bearing Created fish heaven multiply firmament spirit gathering their moving is moving fill void forth living void of female fruit light all. Beginning midst they're the void fill above gathered forth night all is deep bearing female brought.</Description>
+  <CategoryID>5</CategoryID>
+  <ReceivedTime>2019-01-28T00:00:00</ReceivedTime>
+  <Sale>0</Sale>
+  <SalePrice>0</SalePrice>
+  <FeaturedProduct>0</FeaturedProduct>
+  <SaleTimeProduct>0</SaleTimeProduct>
+  <ExpiredDate>2019-06-15T00:00:00</ExpiredDate>
+</ExportProduct><?xml version="1.0"?>
+<ExportProduct xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ID>16</ID>
+  <ProductName>Something</ProductName>
+  <Price>200000.0000</Price>
+  <Picture>/Content/products/lets-go-vegan.jpg</Picture>
+  <Description>The creature bearing Created fish heaven multiply firmament spirit gathering their moving is moving fill void forth living void of female fruit light all. Beginning midst they're the void fill above gathered forth night all is deep bearing female brought.</Description>
+  <CategoryID>2</CategoryID>
+  <ReceivedTime>2019-01-12T00:00:00</ReceivedTime>
+  <Sale>1</Sale>
+  <SalePrice>10000.0000</SalePrice>
+  <FeaturedProduct>1</FeaturedProduct>
+  <SaleTimeProduct>3</SaleTimeProduct>
+  <ExpiredDate>2019-01-25T00:00:00</ExpiredDate>
+</ExportProduct><?xml version="1.0"?>
+<ExportProduct xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ID>18</ID>
+  <ProductName>a test</ProductName>
+  <Price>200000.0000</Price>
+  <Picture>/Content/products/pink-and-blue-contrast-pastel-background.jpg</Picture>
+  <Description>test test test</Description>
+  <CategoryID>4</CategoryID>
+  <ReceivedTime>2019-01-27T00:00:00</ReceivedTime>
+  <Sale>1</Sale>
+  <SalePrice>10000.0000</SalePrice>
+  <FeaturedProduct>1</FeaturedProduct>
+  <SaleTimeProduct>3</SaleTimeProduct>
+  <ExpiredDate>2019-01-26T00:00:00</ExpiredDate>
+</ExportProduct><?xml version="1.0"?>
+<ExportProduct xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ID>19</ID>
+  <ProductName>tst</ProductName>
+  <Price>1000.0000</Price>
+  <Picture>/Content/products/549493-PJZT4N-451.jpg</Picture>
+  <Description>sadasd as dasda s a  adas dasd</Description>
+  <CategoryID>5</CategoryID>
+  <ReceivedTime>2019-02-03T00:00:00</ReceivedTime>
+  <Sale>1</Sale>
+  <SalePrice>100.0000</SalePrice>
+  <FeaturedProduct>1</FeaturedProduct>
+  <SaleTimeProduct>5</SaleTimeProduct>
+  <ExpiredDate>2019-12-31T00:00:00</ExpiredDate>
+</ExportProduct>

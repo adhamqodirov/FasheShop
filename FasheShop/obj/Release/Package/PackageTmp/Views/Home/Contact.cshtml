@@ -1,0 +1,127 @@
+﻿
+    <!-- Header -->
+   
+
+    <!-- Title Page -->
+ @{  
+     string text = "";
+      <section class="bg-title-page p-t-40 p-b-50 flex-col-c-m" style="background-image: url('@ViewBag.pageimages.path'); margin-top: 80px;">
+        <h2 class="l-text2 t-center">
+     
+               
+
+                @if (!FasheShop.Control.Status.isRu)
+                {
+                    text = " Contact";
+
+
+                }
+                else
+                {
+                    text = "Связаться с нами";
+                }
+
+            
+            @text
+
+
+        </h2>
+    </section>
+
+
+<style>
+    .alert {
+        padding: 20px;
+        background-color: aquamarine;
+        color: unset;
+        padding-right: 50px;
+    }
+
+    .closebtn {
+        margin-left: 15px;
+        color: white;
+        font-weight: bold;
+        float: right;
+        font-size: 22px;
+        line-height: 20px;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+
+        .closebtn:hover {
+            color: black;
+        }
+</style>
+         
+}
+
+
+    <!-- content page -->
+    <section class="bgwhite p-t-66 p-b-60">
+            <div class="container">
+                @{
+
+
+                    if (ViewBag.mess != null)
+                    {
+                        <div class="alert">
+                            <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+                            @ViewBag.mess
+                        </div>
+                    }
+                }
+                <div class="row">
+                   
+                    <div class="col-md-6 p-b-30">
+                        <div class="p-r-20 p-r-0-lg">
+                            <img src="@ViewBag.c1.path" class="contact_img" alt="Alternate Text" />   
+                              </div>
+                    </div>
+
+                    <div class="col-md-6 p-b-30">
+                        <form action="@Url.Action("Contact","Home")" method="post" class="leave-comment">
+                            <h4 class="m-text26 p-b-36 p-t-15">
+                                @{
+                                  text = "";
+
+                                    if (!FasheShop.Control.Status.isRu)
+                                    {
+                                        text = "  Send us your message";
+
+
+                                    }
+                                    else
+                                    {
+                                        text = "Отправьте нам свое сообщение";
+                                    }
+
+                                }
+                                @text
+                            </h4>
+
+                            <div class="bo4 of-hidden size15 m-b-20">
+                                <input class="sizefull s-text7 p-l-22 p-r-22" type="text" name="name" placeholder="Full Name">
+                            </div>
+
+                            <div class="bo4 of-hidden size15 m-b-20">
+                                <input class="sizefull s-text7 p-l-22 p-r-22" type="text" name="phonenumber" placeholder="Phone Number">
+                            </div>
+
+                            <div class="bo4 of-hidden size15 m-b-20">
+                                <input class="sizefull s-text7 p-l-22 p-r-22" type="text" name="email" placeholder="Email Address">
+                            </div>
+
+                            <textarea class="dis-block s-text7 size20 bo4 p-l-22 p-r-22 p-t-13 m-b-20" name="message" placeholder="Message"></textarea>
+
+                            <div class="w-size25">
+                                <!-- Button -->
+                                <button class="flex-c-m size2 bg1 bo-rad-23 hov1 m-text3 trans-0-4" type="submit">
+                                    Send
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+    </section>
+

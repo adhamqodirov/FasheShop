@@ -1,0 +1,179 @@
+C:\Users\ajhog\Documents\Visual Studio 2015\Projects\FasheShop\FasheShop\bin\ApplicationInsights.config
+C:\Users\ajhog\Documents\Visual Studio 2015\Projects\FasheShop\FasheShop\bin\roslyn\csc.exe
+C:\Users\ajhog\Documents\Visual Studio 2015\Projects\FasheShop\FasheShop\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\ajhog\Documents\Visual Studio 2015\Projects\FasheShop\FasheShop\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\ajhog\Documents\Visual Studio 2015\Projects\FasheShop\FasheShop\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\ajhog\Documents\Visual Studio 2015\Projects\FasheShop\FasheShop\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\ajhog\Documents\Visual Studio 2015\Projects\FasheShop\FasheShop\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\ajhog\Documents\Visual Studio 2015\Projects\FasheShop\FasheShop\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\ajhog\Documents\Visual Studio 2015\Projects\FasheShop\FasheShop\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\ajhog\Documents\Visual Studio 2015\Projects\FasheShop\FasheShop\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\ajhog\Documents\Visual Studio 2015\Projects\FasheShop\FasheShop\bin\roslyn\vbc.exe
+C:\Users\ajhog\Documents\Visual Studio 2015\Projects\FasheShop\FasheShop\bin\roslyn\VBCSCompiler.exe
+C:\Users\ajhog\Documents\Visual Studio 2015\Projects\FasheShop\FasheShop\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\ajhog\Documents\Visual Studio 2015\Projects\FasheShop\FasheShop\bin\FasheShop.dll.config
+C:\Users\ajhog\Documents\Visual Studio 2015\Projects\FasheShop\FasheShop\bin\FasheShop.dll
+C:\Users\ajhog\Documents\Visual Studio 2015\Projects\FasheShop\FasheShop\bin\FasheShop.pdb
+C:\Users\ajhog\Documents\Visual Studio 2015\Projects\FasheShop\FasheShop\bin\EntityFramework.dll
+C:\Users\ajhog\Documents\Visual Studio 2015\Projects\FasheShop\FasheShop\bin\EntityFramework.SqlServer.dll
+C:\Users\ajhog\Documents\Visual Studio 2015\Projects\FasheShop\FasheShop\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\ajhog\Documents\Visual Studio 2015\Projects\FasheShop\FasheShop\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\ajhog\Documents\Visual Studio 2015\Projects\FasheShop\FasheShop\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\ajhog\Documents\Visual Studio 2015\Projects\FasheShop\FasheShop\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\ajhog\Documents\Visual Studio 2015\Projects\FasheShop\FasheShop\bin\Microsoft.AI.Web.dll
+C:\Users\ajhog\Documents\Visual Studio 2015\Projects\FasheShop\FasheShop\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\ajhog\Documents\Visual Studio 2015\Projects\FasheShop\FasheShop\bin\Microsoft.ApplicationInsights.dll
+C:\Users\ajhog\Documents\Visual Studio 2015\Projects\FasheShop\FasheShop\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\ajhog\Documents\Visual Studio 2015\Projects\FasheShop\FasheShop\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\ajhog\Documents\Visual Studio 2015\Projects\FasheShop\FasheShop\bin\System.Web.Helpers.dll
+C:\Users\ajhog\Documents\Visual Studio 2015\Projects\FasheShop\FasheShop\bin\System.Web.Mvc.dll
+C:\Users\ajhog\Documents\Visual Studio 2015\Projects\FasheShop\FasheShop\bin\System.Web.Razor.dll
+C:\Users\ajhog\Documents\Visual Studio 2015\Projects\FasheShop\FasheShop\bin\System.Web.Webpages.Deployment.dll
+C:\Users\ajhog\Documents\Visual Studio 2015\Projects\FasheShop\FasheShop\bin\System.Web.Webpages.dll
+C:\Users\ajhog\Documents\Visual Studio 2015\Projects\FasheShop\FasheShop\bin\System.Web.Webpages.Razor.dll
+C:\Users\ajhog\Documents\Visual Studio 2015\Projects\FasheShop\FasheShop\bin\EntityFramework.xml
+C:\Users\ajhog\Documents\Visual Studio 2015\Projects\FasheShop\FasheShop\bin\EntityFramework.SqlServer.xml
+C:\Users\ajhog\Documents\Visual Studio 2015\Projects\FasheShop\FasheShop\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\ajhog\Documents\Visual Studio 2015\Projects\FasheShop\FasheShop\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\ajhog\Documents\Visual Studio 2015\Projects\FasheShop\FasheShop\bin\Microsoft.AI.Web.xml
+C:\Users\ajhog\Documents\Visual Studio 2015\Projects\FasheShop\FasheShop\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\ajhog\Documents\Visual Studio 2015\Projects\FasheShop\FasheShop\bin\Microsoft.ApplicationInsights.xml
+C:\Users\ajhog\Documents\Visual Studio 2015\Projects\FasheShop\FasheShop\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\ajhog\Documents\Visual Studio 2015\Projects\FasheShop\FasheShop\bin\System.Web.Razor.xml
+C:\Users\ajhog\Documents\Visual Studio 2015\Projects\FasheShop\FasheShop\bin\System.Web.Webpages.xml
+C:\Users\ajhog\Documents\Visual Studio 2015\Projects\FasheShop\FasheShop\bin\System.Web.Webpages.Deployment.xml
+C:\Users\ajhog\Documents\Visual Studio 2015\Projects\FasheShop\FasheShop\bin\System.Web.Webpages.Razor.xml
+C:\Users\ajhog\Documents\Visual Studio 2015\Projects\FasheShop\FasheShop\bin\System.Web.Helpers.xml
+C:\Users\ajhog\Documents\Visual Studio 2015\Projects\FasheShop\FasheShop\bin\System.Web.Mvc.xml
+C:\Users\ajhog\Documents\Visual Studio 2015\Projects\FasheShop\FasheShop\bin\ru\EntityFramework.resources.dll
+C:\Users\ajhog\Documents\Visual Studio 2015\Projects\FasheShop\FasheShop\bin\ru\System.Web.Razor.resources.dll
+C:\Users\ajhog\Documents\Visual Studio 2015\Projects\FasheShop\FasheShop\bin\ru\System.Web.Webpages.resources.dll
+C:\Users\ajhog\Documents\Visual Studio 2015\Projects\FasheShop\FasheShop\bin\ru\System.Web.Webpages.Deployment.resources.dll
+C:\Users\ajhog\Documents\Visual Studio 2015\Projects\FasheShop\FasheShop\bin\ru\System.Web.Webpages.Razor.resources.dll
+C:\Users\ajhog\Documents\Visual Studio 2015\Projects\FasheShop\FasheShop\bin\ru\System.Web.Helpers.resources.dll
+C:\Users\ajhog\Documents\Visual Studio 2015\Projects\FasheShop\FasheShop\bin\ru\System.Web.Mvc.resources.dll
+C:\Users\ajhog\Documents\Visual Studio 2015\Projects\FasheShop\FasheShop\obj\Release\FasheShop.csprojResolveAssemblyReference.cache
+C:\Users\ajhog\Documents\Visual Studio 2015\Projects\FasheShop\FasheShop\obj\Release\FasheShop.dll
+C:\Users\ajhog\Documents\Visual Studio 2015\Projects\FasheShop\FasheShop\obj\Release\FasheShop.pdb
+C:\Users\Successful\Desktop\FasheShop\FasheShop\bin\ApplicationInsights.config
+C:\Users\Successful\Desktop\FasheShop\FasheShop\bin\roslyn\csc.exe
+C:\Users\Successful\Desktop\FasheShop\FasheShop\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Successful\Desktop\FasheShop\FasheShop\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Successful\Desktop\FasheShop\FasheShop\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Successful\Desktop\FasheShop\FasheShop\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Successful\Desktop\FasheShop\FasheShop\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Successful\Desktop\FasheShop\FasheShop\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Successful\Desktop\FasheShop\FasheShop\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Successful\Desktop\FasheShop\FasheShop\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Successful\Desktop\FasheShop\FasheShop\bin\roslyn\vbc.exe
+C:\Users\Successful\Desktop\FasheShop\FasheShop\bin\roslyn\VBCSCompiler.exe
+C:\Users\Successful\Desktop\FasheShop\FasheShop\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Successful\Desktop\FasheShop\FasheShop\bin\FasheShop.dll.config
+C:\Users\Successful\Desktop\FasheShop\FasheShop\bin\FasheShop.dll
+C:\Users\Successful\Desktop\FasheShop\FasheShop\bin\FasheShop.pdb
+C:\Users\Successful\Desktop\FasheShop\FasheShop\bin\CaptchaMvc.dll
+C:\Users\Successful\Desktop\FasheShop\FasheShop\bin\EntityFramework.dll
+C:\Users\Successful\Desktop\FasheShop\FasheShop\bin\EntityFramework.SqlServer.dll
+C:\Users\Successful\Desktop\FasheShop\FasheShop\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Successful\Desktop\FasheShop\FasheShop\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Successful\Desktop\FasheShop\FasheShop\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Successful\Desktop\FasheShop\FasheShop\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Successful\Desktop\FasheShop\FasheShop\bin\Microsoft.AI.Web.dll
+C:\Users\Successful\Desktop\FasheShop\FasheShop\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Successful\Desktop\FasheShop\FasheShop\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Successful\Desktop\FasheShop\FasheShop\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Successful\Desktop\FasheShop\FasheShop\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Successful\Desktop\FasheShop\FasheShop\bin\System.Web.Helpers.dll
+C:\Users\Successful\Desktop\FasheShop\FasheShop\bin\System.Web.Mvc.dll
+C:\Users\Successful\Desktop\FasheShop\FasheShop\bin\System.Web.Razor.dll
+C:\Users\Successful\Desktop\FasheShop\FasheShop\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Successful\Desktop\FasheShop\FasheShop\bin\System.Web.Webpages.dll
+C:\Users\Successful\Desktop\FasheShop\FasheShop\bin\System.Web.Webpages.Razor.dll
+C:\Users\Successful\Desktop\FasheShop\FasheShop\bin\CaptchaMvc.pdb
+C:\Users\Successful\Desktop\FasheShop\FasheShop\bin\CaptchaMvc.xml
+C:\Users\Successful\Desktop\FasheShop\FasheShop\bin\EntityFramework.xml
+C:\Users\Successful\Desktop\FasheShop\FasheShop\bin\EntityFramework.SqlServer.xml
+C:\Users\Successful\Desktop\FasheShop\FasheShop\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Successful\Desktop\FasheShop\FasheShop\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Successful\Desktop\FasheShop\FasheShop\bin\Microsoft.AI.Web.xml
+C:\Users\Successful\Desktop\FasheShop\FasheShop\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Successful\Desktop\FasheShop\FasheShop\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Successful\Desktop\FasheShop\FasheShop\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Successful\Desktop\FasheShop\FasheShop\bin\System.Web.Razor.xml
+C:\Users\Successful\Desktop\FasheShop\FasheShop\bin\System.Web.Webpages.xml
+C:\Users\Successful\Desktop\FasheShop\FasheShop\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Successful\Desktop\FasheShop\FasheShop\bin\System.Web.Webpages.Razor.xml
+C:\Users\Successful\Desktop\FasheShop\FasheShop\bin\System.Web.Helpers.xml
+C:\Users\Successful\Desktop\FasheShop\FasheShop\bin\System.Web.Mvc.xml
+C:\Users\Successful\Desktop\FasheShop\FasheShop\bin\ru\EntityFramework.resources.dll
+C:\Users\Successful\Desktop\FasheShop\FasheShop\bin\ru\EntityFramework.SqlServer.resources.dll
+C:\Users\Successful\Desktop\FasheShop\FasheShop\bin\ru\System.Web.Razor.resources.dll
+C:\Users\Successful\Desktop\FasheShop\FasheShop\bin\ru\System.Web.Webpages.resources.dll
+C:\Users\Successful\Desktop\FasheShop\FasheShop\bin\ru\System.Web.Webpages.Deployment.resources.dll
+C:\Users\Successful\Desktop\FasheShop\FasheShop\bin\ru\System.Web.Webpages.Razor.resources.dll
+C:\Users\Successful\Desktop\FasheShop\FasheShop\bin\ru\System.Web.Helpers.resources.dll
+C:\Users\Successful\Desktop\FasheShop\FasheShop\bin\ru\System.Web.Mvc.resources.dll
+C:\Users\Successful\Desktop\FasheShop\FasheShop\obj\Release\FasheShop.csprojResolveAssemblyReference.cache
+C:\Users\Successful\Desktop\FasheShop\FasheShop\obj\Release\FasheShop.dll
+C:\Users\Successful\Desktop\FasheShop\FasheShop\obj\Release\FasheShop.pdb
+C:\Users\ajhog\Downloads\Telegram Desktop\FasheShop\FasheShop\bin\ApplicationInsights.config
+C:\Users\ajhog\Downloads\Telegram Desktop\FasheShop\FasheShop\bin\roslyn\csc.exe
+C:\Users\ajhog\Downloads\Telegram Desktop\FasheShop\FasheShop\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\ajhog\Downloads\Telegram Desktop\FasheShop\FasheShop\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\ajhog\Downloads\Telegram Desktop\FasheShop\FasheShop\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\ajhog\Downloads\Telegram Desktop\FasheShop\FasheShop\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\ajhog\Downloads\Telegram Desktop\FasheShop\FasheShop\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\ajhog\Downloads\Telegram Desktop\FasheShop\FasheShop\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\ajhog\Downloads\Telegram Desktop\FasheShop\FasheShop\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\ajhog\Downloads\Telegram Desktop\FasheShop\FasheShop\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\ajhog\Downloads\Telegram Desktop\FasheShop\FasheShop\bin\roslyn\vbc.exe
+C:\Users\ajhog\Downloads\Telegram Desktop\FasheShop\FasheShop\bin\roslyn\VBCSCompiler.exe
+C:\Users\ajhog\Downloads\Telegram Desktop\FasheShop\FasheShop\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\ajhog\Downloads\Telegram Desktop\FasheShop\FasheShop\bin\FasheShop.dll.config
+C:\Users\ajhog\Downloads\Telegram Desktop\FasheShop\FasheShop\bin\FasheShop.dll
+C:\Users\ajhog\Downloads\Telegram Desktop\FasheShop\FasheShop\bin\FasheShop.pdb
+C:\Users\ajhog\Downloads\Telegram Desktop\FasheShop\FasheShop\bin\CaptchaMvc.dll
+C:\Users\ajhog\Downloads\Telegram Desktop\FasheShop\FasheShop\bin\EntityFramework.dll
+C:\Users\ajhog\Downloads\Telegram Desktop\FasheShop\FasheShop\bin\EntityFramework.SqlServer.dll
+C:\Users\ajhog\Downloads\Telegram Desktop\FasheShop\FasheShop\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\ajhog\Downloads\Telegram Desktop\FasheShop\FasheShop\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\ajhog\Downloads\Telegram Desktop\FasheShop\FasheShop\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\ajhog\Downloads\Telegram Desktop\FasheShop\FasheShop\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\ajhog\Downloads\Telegram Desktop\FasheShop\FasheShop\bin\Microsoft.AI.Web.dll
+C:\Users\ajhog\Downloads\Telegram Desktop\FasheShop\FasheShop\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\ajhog\Downloads\Telegram Desktop\FasheShop\FasheShop\bin\Microsoft.ApplicationInsights.dll
+C:\Users\ajhog\Downloads\Telegram Desktop\FasheShop\FasheShop\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\ajhog\Downloads\Telegram Desktop\FasheShop\FasheShop\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\ajhog\Downloads\Telegram Desktop\FasheShop\FasheShop\bin\System.Web.Helpers.dll
+C:\Users\ajhog\Downloads\Telegram Desktop\FasheShop\FasheShop\bin\System.Web.Mvc.dll
+C:\Users\ajhog\Downloads\Telegram Desktop\FasheShop\FasheShop\bin\System.Web.Razor.dll
+C:\Users\ajhog\Downloads\Telegram Desktop\FasheShop\FasheShop\bin\System.Web.Webpages.Deployment.dll
+C:\Users\ajhog\Downloads\Telegram Desktop\FasheShop\FasheShop\bin\System.Web.Webpages.dll
+C:\Users\ajhog\Downloads\Telegram Desktop\FasheShop\FasheShop\bin\System.Web.Webpages.Razor.dll
+C:\Users\ajhog\Downloads\Telegram Desktop\FasheShop\FasheShop\bin\CaptchaMvc.pdb
+C:\Users\ajhog\Downloads\Telegram Desktop\FasheShop\FasheShop\bin\CaptchaMvc.xml
+C:\Users\ajhog\Downloads\Telegram Desktop\FasheShop\FasheShop\bin\EntityFramework.xml
+C:\Users\ajhog\Downloads\Telegram Desktop\FasheShop\FasheShop\bin\EntityFramework.SqlServer.xml
+C:\Users\ajhog\Downloads\Telegram Desktop\FasheShop\FasheShop\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\ajhog\Downloads\Telegram Desktop\FasheShop\FasheShop\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\ajhog\Downloads\Telegram Desktop\FasheShop\FasheShop\bin\Microsoft.AI.Web.xml
+C:\Users\ajhog\Downloads\Telegram Desktop\FasheShop\FasheShop\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\ajhog\Downloads\Telegram Desktop\FasheShop\FasheShop\bin\Microsoft.ApplicationInsights.xml
+C:\Users\ajhog\Downloads\Telegram Desktop\FasheShop\FasheShop\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\ajhog\Downloads\Telegram Desktop\FasheShop\FasheShop\bin\System.Web.Razor.xml
+C:\Users\ajhog\Downloads\Telegram Desktop\FasheShop\FasheShop\bin\System.Web.Webpages.xml
+C:\Users\ajhog\Downloads\Telegram Desktop\FasheShop\FasheShop\bin\System.Web.Webpages.Deployment.xml
+C:\Users\ajhog\Downloads\Telegram Desktop\FasheShop\FasheShop\bin\System.Web.Webpages.Razor.xml
+C:\Users\ajhog\Downloads\Telegram Desktop\FasheShop\FasheShop\bin\System.Web.Helpers.xml
+C:\Users\ajhog\Downloads\Telegram Desktop\FasheShop\FasheShop\bin\System.Web.Mvc.xml
+C:\Users\ajhog\Downloads\Telegram Desktop\FasheShop\FasheShop\bin\ru\EntityFramework.resources.dll
+C:\Users\ajhog\Downloads\Telegram Desktop\FasheShop\FasheShop\bin\ru\EntityFramework.SqlServer.resources.dll
+C:\Users\ajhog\Downloads\Telegram Desktop\FasheShop\FasheShop\bin\ru\System.Web.Razor.resources.dll
+C:\Users\ajhog\Downloads\Telegram Desktop\FasheShop\FasheShop\bin\ru\System.Web.Webpages.resources.dll
+C:\Users\ajhog\Downloads\Telegram Desktop\FasheShop\FasheShop\bin\ru\System.Web.Webpages.Deployment.resources.dll
+C:\Users\ajhog\Downloads\Telegram Desktop\FasheShop\FasheShop\bin\ru\System.Web.Webpages.Razor.resources.dll
+C:\Users\ajhog\Downloads\Telegram Desktop\FasheShop\FasheShop\bin\ru\System.Web.Helpers.resources.dll
+C:\Users\ajhog\Downloads\Telegram Desktop\FasheShop\FasheShop\bin\ru\System.Web.Mvc.resources.dll
+C:\Users\ajhog\Downloads\Telegram Desktop\FasheShop\FasheShop\obj\Release\FasheShop.csprojResolveAssemblyReference.cache
+C:\Users\ajhog\Downloads\Telegram Desktop\FasheShop\FasheShop\obj\Release\FasheShop.dll
+C:\Users\ajhog\Downloads\Telegram Desktop\FasheShop\FasheShop\obj\Release\FasheShop.pdb
